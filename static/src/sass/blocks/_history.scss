@@ -1,6 +1,20 @@
 
 .history {
   padding-top: 30px;
+
+  .title {
+    margin-bottom: 1.5rem;
+  }
+
+  .desc-body {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .btn {
+    margin-top: 12px;
+  }
+
   &-text {
     & p {
       padding-top: 20px;
