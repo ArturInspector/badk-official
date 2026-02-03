@@ -1,23 +1,24 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
+from modeltranslation.admin import TabbedTranslationAdmin
 
 from .models import Position, Nationality, Employee
 
 
 @admin.register(Position)
-class PositionAdmin(admin.ModelAdmin):
+class PositionAdmin(TabbedTranslationAdmin):
     """ Должность """
     list_display = ('title', 'short_title', 'created')
 
 
 @admin.register(Nationality)
-class NationalityAdmin(admin.ModelAdmin):
+class NationalityAdmin(TabbedTranslationAdmin):
     """ Национальность """
     list_display = ('title',)
 
 
 @admin.register(Employee)
-class EmployeeAdmin(admin.ModelAdmin):
+class EmployeeAdmin(TabbedTranslationAdmin):
     list_display = ('get_full_name', 'position', 'number', 'is_active', 'created', 'get_photo')
     list_filter = ('position', 'is_active')
     search_fields = ['get_full_name', 'position']

@@ -1,0 +1,864 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-03 12:29+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: apps/core/models.py:25 apps/core/models.py:38 apps/core/models.py:82
+#: apps/core/models.py:109 apps/employee/models.py:14
+#: apps/employee/models.py:32 apps/news/models.py:15
+msgid "Название"
+msgstr ""
+
+#: apps/core/models.py:26 apps/core/models.py:97 apps/core/models.py:130
+msgid "Файл"
+msgstr ""
+
+#: apps/core/models.py:32 apps/core/models.py:33
+#: apps/core/templates/collaborations/cooperation.html:5
+#: apps/core/templates/collaborations/cooperation.html:14
+#: apps/core/templates/collaborations/internationals.html:13
+#: apps/core/templates/index.html:227 templates/base/footer.html:35
+#: templates/base/menu.html:52
+msgid "Сотрудничество"
+msgstr ""
+
+#: apps/core/models.py:40 apps/news/models.py:17 apps/specialty/models.py:28
+msgid "Описание"
+msgstr ""
+
+#: apps/core/models.py:41 apps/news/models.py:41 apps/specialty/models.py:32
+#: apps/student/models.py:30
+msgid "Фото"
+msgstr ""
+
+#: apps/core/models.py:44
+msgid "Договор (PDF)"
+msgstr ""
+
+#: apps/core/models.py:64
+#: apps/core/templates/collaborations/international-detail.html:21
+#: apps/core/templates/collaborations/internationals.html:5
+#: apps/core/templates/collaborations/internationals.html:14
+#: apps/core/templates/index.html:228 templates/base/menu.html:53
+msgid "Международное сотрудничество"
+msgstr ""
+
+#: apps/core/models.py:65
+msgid "Международные сотрудничество"
+msgstr ""
+
+#: apps/core/models.py:71 apps/core/models.py:77 apps/news/models.py:56
+#: apps/news/models.py:67 apps/student/models.py:45 apps/student/models.py:56
+msgid "Фотография"
+msgstr ""
+
+#: apps/core/models.py:78 apps/news/models.py:68 apps/student/models.py:57
+msgid "Фотографии"
+msgstr ""
+
+#: apps/core/models.py:83 apps/core/models.py:110
+msgid "Активный"
+msgstr ""
+
+#: apps/core/models.py:89
+msgid "Нормативный документ"
+msgstr ""
+
+#: apps/core/models.py:90 apps/core/templates/documents/list.html:5
+#: apps/core/templates/documents/list.html:13 templates/base/menu.html:50
+msgid "Нормативные документы"
+msgstr ""
+
+#: apps/core/models.py:94 apps/core/models.py:127
+msgid "Документ"
+msgstr ""
+
+#: apps/core/models.py:95 apps/core/models.py:128
+msgid "Название файла"
+msgstr ""
+
+#: apps/core/models.py:104
+msgid "Файл документа"
+msgstr ""
+
+#: apps/core/models.py:105
+msgid "Файлы документа"
+msgstr ""
+
+#: apps/core/models.py:122 apps/core/templates/edu_process_detail.html:13
+#: templates/base/menu.html:58
+msgid "Учебный процесс"
+msgstr ""
+
+#: apps/core/models.py:123
+msgid "Учебные процессы"
+msgstr ""
+
+#: apps/core/models.py:137
+msgid "Файл учебного процесса"
+msgstr ""
+
+#: apps/core/models.py:138
+msgid "Файлы учебных процессов"
+msgstr ""
+
+#: apps/core/models.py:143
+msgid "Мужской"
+msgstr ""
+
+#: apps/core/models.py:144
+msgid "Женский"
+msgstr ""
+
+#: apps/core/models.py:147
+msgid "Порядковый номер"
+msgstr ""
+
+#: apps/core/models.py:148
+msgid "Фамилия"
+msgstr ""
+
+#: apps/core/models.py:149
+msgid "Имя"
+msgstr ""
+
+#: apps/core/models.py:150
+msgid "Отчество"
+msgstr ""
+
+#: apps/core/models.py:152
+msgid "Пол"
+msgstr ""
+
+#: apps/core/models.py:153
+msgid "День рождения"
+msgstr ""
+
+#: apps/core/templates/collaborations/cooperation.html:13
+#: apps/core/templates/documents/detail.html:13
+#: apps/core/templates/documents/list.html:12
+msgid "О Колледже"
+msgstr ""
+
+#: apps/core/templates/collaborations/international-detail.html:32
+msgid "Договор"
+msgstr ""
+
+#: apps/core/templates/collaborations/international-detail.html:38
+#: apps/news/templates/news/detail.html:31
+msgid "Фотогалерея"
+msgstr ""
+
+#: apps/core/templates/collaborations/international-detail.html:44
+#: apps/news/templates/news/detail.html:37
+msgid "Посмотреть"
+msgstr ""
+
+#: apps/core/templates/history.html:4 apps/core/templates/history.html:11
+msgid "История создания и развития учебного заведения"
+msgstr ""
+
+#: apps/core/templates/history.html:10 apps/core/templates/index.html:179
+#: apps/core/templates/passport-college.html:18
+#: apps/employee/templates/employee/index.html:10 templates/base/menu.html:42
+msgid "О колледже"
+msgstr ""
+
+#: apps/core/templates/history.html:15 apps/core/templates/index.html:45
+#, python-format
+msgid ""
+"Кыргызская Республика расположена в горной местности. Более 95%% перевозок "
+"грузов и пассажиров осуществляется автомобильным транспортом и часть "
+"железнодорожным. Поэтому республика нуждалась в подготовке специалистов "
+"среднего звена, владеющих навыками обслуживания, эксплуатации автотранспорта "
+"и строительства автомобильных и железных дорог."
+msgstr ""
+
+#: apps/core/templates/history.html:18
+msgid ""
+"В 1939 году при Фрунзенском индустриальном техникуме было создано "
+"автомобильное отделение из одной группы, которое готовило механиков по "
+"техническому обслуживанию и ремонту автомобилей. Первый выпуск из 14 человек "
+"состоялся в 1942 году. Трасса Бишкек-Ош"
+msgstr ""
+
+#: apps/core/templates/history.html:22
+msgid ""
+"\n"
+"                        В это время потребность в специалистах автодорожного "
+"направления была настолько велика,\n"
+"                        несмотря на то, что шла Великая Отечественная "
+"война,\n"
+"                        в 1943 году был создан самостоятельный автомобильно-"
+"дорожный техникум.\n"
+"                        Руководителем новой кузницы кадров для автомобильной "
+"и дорожной отраслей стал Г. А. Светличный.\n"
+"                        Первоначально техникум размещался в городе Фрунзе в "
+"одном из помещений напротив табачной фабрики,\n"
+"                        а затем — до 1946 года – находился в здании "
+"железнодорожного вокзала.\n"
+"                        Здесь учились будущие преподаватели техникума П.К. "
+"Денисов, Т. У. Умарбеков, Д.У., Убышев.\n"
+"                        В 1946 году техникум был переведен на первый этаж "
+"нынешнего архитектурно строительного колледжа.\n"
+"                        А через год техникум преобразовали в автомобильное "
+"отделение строительно-индустриального техникума,\n"
+"                        который был передан в ведение Министерства "
+"строительства Киргизской ССР.\n"
+"                        <br>Прошло несколько лет и стало очевидным, что "
+"существующая система профессиональной подготовки специалистов среднего звена "
+"в области автотранспорта и дорожного хозяйства не удовлетворяет потребностям "
+"республики.\n"
+"                    "
+msgstr ""
+
+#: apps/core/templates/history.html:38
+msgid ""
+"\n"
+"                        Идея возрождения автомобильно-дорожного техникума "
+"принадлежала министру автотранспорта и шоссейных дорог республики Кусаину "
+"Кольбаеву.\n"
+"                        В соответствии с Постановлением Совета Министров "
+"СССР от 29 июня 1954г. № 1294\n"
+"                        «О подготовке инженерно-технических кадров для "
+"автомобильного транспорта и дорожного хозяйства» Совет Министров Киргизской "
+"ССР постановляет:\n"
+"                        «Обязать Министерство автомобильного транспорта и "
+"шоссейных дорог Киргизской ССР:\n"
+"                        1. Обеспечить окончание строительства учебного "
+"корпуса автомобильно-дорожного техникума в г.Фрунзе и ввод в его в действие "
+"с 1 сентября 1957 года;\n"
+"                        2. Открыть в 1957 году в г. Фрунзе автомобильно-"
+"дорожный техникум первой категории по специальностям:\n"
+"                        Эксплуатация и ремонт автомобильного транспорта;\n"
+"                        Дорожные машины и оборудование;\n"
+"                        Строительство и эксплуатация автомобильных дорог и "
+"мостов». Председатель Совета Министров Киргизской ССР А.Суеркулов.»\n"
+"                    "
+msgstr ""
+
+#: apps/core/templates/history.html:51
+msgid ""
+"\n"
+"                        Для реализации этой задачи, Постановлением Совета "
+"Министров Киргизской ССР за №209 от 19 июня 1957 года в г.\n"
+"                        Фрунзе создаётся автомобильно-дорожный техникум "
+"первой категории.\n"
+"                        Был объявлен прием по названным выше специальностям. "
+"1957 год считается годом образования нашего колледжа.\n"
+"                        Постановлением Правительства Кыргызской Республики "
+"от 22 декабря 1997 г.\n"
+"                        №743 техникум переименован в Бишкекский автомобильно-"
+"дорожный техникум им. Кусаина Кольбаева.\n"
+"                    "
+msgstr ""
+
+#: apps/core/templates/history.html:61
+msgid ""
+"\n"
+"                        «Первый инженер» — так называли Кольбаева К.К., на "
+"всех постах, куда бы его не направляли и не выдвигали,\n"
+"                        он проявлял себя как умелый организатор и грамотный "
+"специалист,\n"
+"                        внес огромный вклад в развитие и укрепление "
+"материально-технической базы транспортного и дорожного хозяйств "
+"Кыргызстана.\n"
+"                        Большое внимание Кусаин Кольбаев уделял подготовке и "
+"обучению квалифицированных кадров.\n"
+"                        Память о «Первом инженере» вызывает у нас особое "
+"чувство гордости,\n"
+"                        а также обязывает всех работников автотранспортного "
+"и дорожного хозяйств трудиться добросовестно и грамотно,\n"
+"                        как работал всю жизнь верный сын Кыргызстана — "
+"Кольбаев Кусаин Кольбаевич.\n"
+"                        Кольбаев Кусаин Кольбаевич родился 25 ноября 1908 "
+"года.\n"
+"                        В 1925 году он в числе первых комсомольцев Киргизии "
+"был направлен на учебу в город Тверь.\n"
+"                        В 1930 году поступил в Ленинградский институт путей "
+"сообщения на автомобильно-дорожный факультет.\n"
+"                    "
+msgstr ""
+
+#: apps/core/templates/history.html:75
+msgid ""
+"\n"
+"                        Кольбаев Кусаин Кольбаевич родился 25 ноября 1908 "
+"года.\n"
+"                        В 1925 году он в числе первых комсомольцев Киргизии "
+"был направлен на учебу в город Тверь.\n"
+"                        В 1930 году поступил в Ленинградский институт путей "
+"сообщения на автомобильно-дорожный факультет.\n"
+"                    "
+msgstr ""
+
+#: apps/core/templates/history.html:82
+msgid ""
+"\n"
+"                        Следует отметить, что Кусаин Кольбаев вошел в "
+"историю и как человек,\n"
+"                        который развил сеть автомобильных дорог и "
+"автотранспортных предприятий,\n"
+"                        называемых в простонародье «автобазы».\n"
+"                        Благодаря его профессионализму и настойчивости в "
+"нашей стране появились транспортные развязки\n"
+"                        республиканского значения: Бишкек — Талас, Бишкек — "
+"Ош. Самые трудные и сложные годы были пятидесятые:\n"
+"                        практически ни одного метра автомобильной дороги с "
+"твердым покрытием,\n"
+"                        а все крупные мостовые переходы — деревянные и "
+"временные, все дорожные работы велись вручную,\n"
+"                        не хватало техники. Кольбаев полностью себя отдавал "
+"труду.\n"
+"                        За 17 лет он смог практически всю республику "
+"обеспечить дорожными развязками с твердым покрытием,\n"
+"                        создал крупные железобетонные предприятия. В общем, "
+"Кусаин Кольбаев сделал невозможное возможным.\n"
+"                        За годы его работы построили дороги Бишкек — Рыбачье "
+"— Нарын — Торугарт (550 км),\n"
+"                        трассы вокруг озера Иссык-Куль (450 км), Талдысу — "
+"Санташ — Каркыра (100 км),\n"
+"                        Нарын — Акталчат — Коштюбе — Казарман (250 км), "
+"горные перевалы и многое другое.\n"
+"                        Именно при нем были проложены основные артерии "
+"экономики страны:\n"
+"                        Бишкек — Ош, Бишкек — Торугарт, Бишкек – Талас.\n"
+"                    "
+msgstr ""
+
+#: apps/core/templates/index.html:15
+msgid "Бишкекский автомобильно-дорожный колледж имени Кусаина Кольбаева"
+msgstr ""
+
+#: apps/core/templates/index.html:17 templates/base/footer.html:11
+msgid "Миссия колледжа"
+msgstr ""
+
+#: apps/core/templates/index.html:18 templates/base/footer.html:12
+msgid ""
+"Обеспечить высокое качество образования, вдохновляя студентов и "
+"преподавателей к постоянному развитию и достижению успеха."
+msgstr ""
+
+#: apps/core/templates/index.html:20
+msgid "Связаться с нами "
+msgstr ""
+
+#: apps/core/templates/index.html:41
+msgid "История колледжа"
+msgstr ""
+
+#: apps/core/templates/index.html:42
+msgid "История развития учебного заведения"
+msgstr ""
+
+#: apps/core/templates/index.html:48
+msgid ""
+"В 1939 году при Фрунзенском индустриальном техникуме было создано "
+"автомобильное отделение из одной группы, которое готовило механиков по "
+"техническому обслуживанию и ремонту автомобилей. Первый выпуск из 14 человек "
+"состоялся в 1942 году."
+msgstr ""
+
+#: apps/core/templates/index.html:50
+msgid "Подробно"
+msgstr ""
+
+#: apps/core/templates/index.html:67 apps/news/views.py:17
+msgid "Новости колледжа"
+msgstr ""
+
+#: apps/core/templates/index.html:68 apps/news/models.py:50
+#: apps/news/views.py:16 apps/news/views.py:31 templates/base/footer.html:32
+#: templates/base/menu.html:49
+msgid "Новости"
+msgstr ""
+
+#: apps/core/templates/index.html:93
+#: apps/specialty/templates/specialty/list.html:4
+#: apps/specialty/templates/specialty/list.html:13
+#: templates/base/footer.html:34
+msgid "Наши специальности"
+msgstr ""
+
+#: apps/core/templates/index.html:94 apps/specialty/models.py:61
+msgid "Специальности"
+msgstr ""
+
+#: apps/core/templates/index.html:125
+msgid "О библиотеке"
+msgstr ""
+
+#: apps/core/templates/index.html:128
+msgid "Электронно-библиотечная система «Эл-Китеп»"
+msgstr ""
+
+#: apps/core/templates/index.html:134
+msgid ""
+"Это система доступа к копиям электронных учебников, научной и другой "
+"дополнительной литературы, с возможностью цитирования и иными сервисами "
+"работы с текстом. Также ЭБС включает в себя мультимедийные (аудиовизуальные, "
+"программные, интерактивные) продукты и материалы."
+msgstr ""
+
+#: apps/core/templates/index.html:138
+msgid "Перейти"
+msgstr ""
+
+#: apps/core/templates/index.html:157 apps/core/templates/index.html:203
+#: apps/student/templates/student/index.html:10 apps/student/views.py:33
+#: templates/base/menu.html:86
+msgid "Студентам"
+msgstr ""
+
+#: apps/core/templates/index.html:158 apps/student/views.py:32
+#: apps/student/views.py:47 templates/base/menu.html:97
+msgid "Студенческая жизнь"
+msgstr ""
+
+#: apps/core/templates/index.html:180
+#: apps/employee/templates/employee/index.html:11 templates/base/menu.html:48
+msgid "Структура"
+msgstr ""
+
+#: apps/core/templates/index.html:204
+msgid "Члены студенческого совета"
+msgstr ""
+
+#: apps/core/templates/passport-college.html:5
+#: apps/core/templates/passport-college.html:19 templates/base/menu.html:47
+msgid "Паспорт колледжа"
+msgstr ""
+
+#: apps/core/templates/reception.html:5 apps/core/templates/reception.html:14
+#: apps/core/templates/reception.html:30 templates/base/footer.html:33
+#: templates/base/menu.html:71
+msgid "Абитуриентам"
+msgstr ""
+
+#: apps/core/templates/reception.html:15
+msgid "Уважаемые абитуриенты!"
+msgstr ""
+
+#: apps/core/templates/reception.html:18
+msgid "В настоящее время колледж ведет подготовку по специальностям:"
+msgstr ""
+
+#: apps/core/templates/reception.html:31
+msgid "Как поступить в наш колледж"
+msgstr ""
+
+#: apps/core/templates/reception.html:34
+msgid "Условия приема"
+msgstr ""
+
+#: apps/core/templates/reception.html:37
+msgid "Основной список документов для поступающих в колледж:"
+msgstr ""
+
+#: apps/core/templates/reception.html:39
+msgid "Оригинал Аттестата и Оригинал Свидетельство об образовании;"
+msgstr ""
+
+#: apps/core/templates/reception.html:40
+msgid "Свидетельства о рождении или паспорт (копия);"
+msgstr ""
+
+#: apps/core/templates/reception.html:41
+msgid "Фотографии 3х4 (6 штук);"
+msgstr ""
+
+#: apps/core/templates/reception.html:42
+msgid "Скоросшиватель и конверт"
+msgstr ""
+
+#: apps/core/templates/reception.html:48
+msgid "Как считается средний балл аттестата"
+msgstr ""
+
+#: apps/core/templates/reception.html:50
+msgid ""
+"Вам нужно подсчитать общее количество оценок, сложить все оценки вместе "
+"(найти сумму всех оценок) и разделить эту сумму на общее количество оценок. "
+"Полученное число и будет средним баллом Вашего аттестата. Средний балл "
+"ведется с точностью до сотых долей."
+msgstr ""
+
+#: apps/core/templates/reception.html:53
+msgid "Например:"
+msgstr ""
+
+#: apps/core/templates/reception.html:54
+msgid ""
+"В Вашем аттестате стоят оценки по 12 предметам. Из них 5 пятерок, 3 четверки "
+"и 4 тройки. Найдем сумму всех оценок : 5*5 + 4*3 + 3*4 = 25 + 12 + 12= 49. "
+"Разделим сумму всех оценок на количество предметов: 49 : 12 = 4.08. Средний "
+"балл рассчитывается с точностью до сотых долей. Таким образом, средний балл "
+"Вашего аттестата – 4.08"
+msgstr ""
+
+#: apps/core/templates/reception.html:61
+#: apps/specialty/templates/specialty/detail.html:32
+msgid "Срок обучение"
+msgstr ""
+
+#: apps/core/templates/reception.html:63
+#: apps/specialty/templates/specialty/detail.html:33
+msgid "На базе 9 класса"
+msgstr ""
+
+#: apps/core/templates/reception.html:63
+#: apps/specialty/templates/specialty/detail.html:33
+msgid "2 года 10 месяцев"
+msgstr ""
+
+#: apps/core/templates/reception.html:64
+#: apps/specialty/templates/specialty/detail.html:34
+msgid "На базе 11 класса"
+msgstr ""
+
+#: apps/core/templates/reception.html:64
+#: apps/specialty/templates/specialty/detail.html:34
+msgid "1 год 10 месяцев"
+msgstr ""
+
+#: apps/core/templates/reception.html:68
+#: apps/employee/templates/employee/employee_detail.html:33
+#: apps/feedback/templates/contacts.html:5
+#: apps/student/templates/student/student_detail.html:33
+#: templates/base/footer.html:39 templates/base/menu.html:7
+#: templates/base/menu.html:102
+msgid "Контакты"
+msgstr ""
+
+#: apps/core/templates/reception.html:70
+msgid "Телефон"
+msgstr ""
+
+#: apps/core/templates/reception.html:75
+msgid "Сайт"
+msgstr ""
+
+#: apps/employee/models.py:15
+msgid "Короткое название"
+msgstr ""
+
+#: apps/employee/models.py:20 apps/employee/models.py:44
+#: apps/student/models.py:15
+msgid "Должность"
+msgstr ""
+
+#: apps/employee/models.py:21
+msgid "Должности"
+msgstr ""
+
+#: apps/employee/models.py:35 apps/employee/models.py:45
+msgid "Национальность"
+msgstr ""
+
+#: apps/employee/models.py:36
+msgid "Национальности"
+msgstr ""
+
+#: apps/employee/models.py:46
+msgid "Навыки работы"
+msgstr ""
+
+#: apps/employee/models.py:47
+msgid "Фото сотрудника"
+msgstr ""
+
+#: apps/employee/models.py:52
+msgid "Преподаватель"
+msgstr ""
+
+#: apps/employee/models.py:53
+msgid "Преподаватели"
+msgstr ""
+
+#: apps/employee/templates/employee/employee_detail.html:26
+#: apps/student/templates/student/student_detail.html:26
+msgid "О себе"
+msgstr ""
+
+#: apps/employee/templates/employee/employee_detail.html:28
+#: apps/student/templates/student/student_detail.html:28
+msgid "День рождения:"
+msgstr ""
+
+#: apps/employee/templates/employee/employee_detail.html:67
+msgid "Навыки"
+msgstr ""
+
+#: apps/employee/templates/employee/index.html:4 apps/student/models.py:24
+#: apps/student/models.py:25 apps/student/templates/student/index.html:4
+msgid "Студентский совет"
+msgstr ""
+
+#: apps/feedback/forms.py:13 apps/feedback/templates/contacts.html:74
+msgid "Напишите ответ"
+msgstr ""
+
+#: apps/feedback/forms.py:21 apps/feedback/models.py:12
+#: apps/feedback/templates/contacts.html:49
+msgid "Ваше имя"
+msgstr ""
+
+#: apps/feedback/forms.py:27 apps/feedback/models.py:13
+msgid "Ваша электронная почта"
+msgstr ""
+
+#: apps/feedback/forms.py:31 apps/feedback/models.py:14
+#: apps/feedback/templates/contacts.html:57
+msgid "Ваше сообщение"
+msgstr ""
+
+#: apps/feedback/models.py:22 apps/feedback/models.py:23
+msgid "Обратная связь"
+msgstr ""
+
+#: apps/feedback/models.py:28
+msgid "Изображение в Формате JPG 60X350"
+msgstr ""
+
+#: apps/feedback/models.py:31
+msgid "Ответ"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:14
+msgid "Позвоните Нам"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:15
+msgid "Контактные данные"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:20
+msgid "Наш адрес: "
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:22 templates/base/footer.html:62
+msgid "г. Бишкек, проспект Чынгыза Айтматова 52"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:27
+msgid "Менеджеры БАДК"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:33
+msgid "Приемная"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:41
+msgid "Система Обратной Связи"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:42
+msgid "Есть идея"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:53
+msgid "Ваша почта"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:61
+msgid "Согласен на обработку персональных данных"
+msgstr ""
+
+#: apps/feedback/templates/contacts.html:79
+msgid "Отправить сообщение"
+msgstr ""
+
+#: apps/feedback/views.py:30
+msgid "Не правильный ответ"
+msgstr ""
+
+#: apps/news/models.py:18
+msgid "Ссылка на видео"
+msgstr ""
+
+#: apps/news/models.py:20 apps/specialty/models.py:34
+msgid "Статус"
+msgstr ""
+
+#: apps/news/models.py:25
+msgid "Создано"
+msgstr ""
+
+#: apps/news/models.py:49
+msgid "Новость"
+msgstr ""
+
+#: apps/news/templates/news/aside.html:4
+msgid "Поиск новостей"
+msgstr ""
+
+#: apps/news/templates/news/aside.html:6
+msgid "Поиск по ключевому слову..."
+msgstr ""
+
+#: apps/news/templates/news/aside.html:7
+msgid "Поиск"
+msgstr ""
+
+#: apps/news/templates/news/detail.html:23
+#: apps/specialty/templates/specialty/detail.html:19
+msgid "Добавлено"
+msgstr ""
+
+#: apps/specialty/models.py:18
+msgid "Очный"
+msgstr ""
+
+#: apps/specialty/models.py:19
+msgid "Очный/Заочный"
+msgstr ""
+
+#: apps/specialty/models.py:20
+msgid "Заочный"
+msgstr ""
+
+#: apps/specialty/models.py:23
+#: apps/specialty/templates/specialty/detail.html:31
+msgid "Контракт"
+msgstr ""
+
+#: apps/specialty/models.py:24
+msgid "Контракт/Бюджет"
+msgstr ""
+
+#: apps/specialty/models.py:26
+msgid "Наименование"
+msgstr ""
+
+#: apps/specialty/models.py:29
+msgid "Сумма контракта"
+msgstr ""
+
+#: apps/specialty/models.py:30
+msgid "Форма обучение"
+msgstr ""
+
+#: apps/specialty/models.py:31
+#: apps/specialty/templates/specialty/detail.html:30
+msgid "Основа обучения"
+msgstr ""
+
+#: apps/specialty/models.py:60
+#: apps/specialty/templates/specialty/detail.html:17
+msgid "Специальность"
+msgstr ""
+
+#: apps/specialty/templates/specialty/detail.html:27
+msgid "Полезные информации"
+msgstr ""
+
+#: apps/specialty/templates/specialty/detail.html:29
+msgid "Форма обучения"
+msgstr ""
+
+#: apps/specialty/templates/specialty/detail.html:31
+msgid "сом"
+msgstr ""
+
+#: apps/specialty/templates/specialty/detail.html:35
+msgid "Часто задаваемые вопросы"
+msgstr ""
+
+#: apps/specialty/templates/specialty/detail.html:36
+msgid "Как поступить в колледж?"
+msgstr ""
+
+#: apps/specialty/templates/specialty/detail.html:37
+msgid "Какие документы нужны для поступления?"
+msgstr ""
+
+#: apps/specialty/templates/specialty/list.html:12
+msgid "Что мы вам предлагаем"
+msgstr ""
+
+#: apps/student/models.py:16
+msgid "Фото студента"
+msgstr ""
+
+#: apps/student/models.py:38 apps/student/models.py:39
+msgid "Студентская жизнь"
+msgstr ""
+
+#: apps/student/templates/student/index.html:11 templates/base/menu.html:94
+msgid "Студенческий совет"
+msgstr ""
+
+#: config/settings.py:141
+msgid "Русский"
+msgstr ""
+
+#: config/settings.py:142
+msgid "Кыргызча"
+msgstr ""
+
+#: config/settings.py:143
+msgid "English"
+msgstr ""
+
+#: templates/base/base.html:10
+msgid "Бишкекский автомобильно-дорожный колледж - имени Кусаина Кольбаева"
+msgstr ""
+
+#: templates/base/footer.html:8
+msgid "Бишкекский автомобильно-дорожный колледж"
+msgstr ""
+
+#: templates/base/footer.html:14
+msgid "Наши социальные сети"
+msgstr ""
+
+#: templates/base/footer.html:29
+msgid "Быстрое меню"
+msgstr ""
+
+#: templates/base/footer.html:31
+msgid "О Нас"
+msgstr ""
+
+#: templates/base/footer.html:74
+msgid "«БАДК» - Все права защищены."
+msgstr ""
+
+#: templates/base/menu.html:39
+msgid "Главная"
+msgstr ""
+
+#: templates/base/menu.html:46
+msgid "История"
+msgstr ""
+
+#: templates/base/menu.html:51
+msgid "Библиотека"
+msgstr ""
+
+#: templates/base/menu.html:76
+msgid "Приемная комиссия"
+msgstr ""
+
+#: templates/base/menu.html:80
+msgid "Наши Специальности"
+msgstr ""
+
+#: templates/base/menu.html:91
+msgid "Дистанционное обучение «AVN»"
+msgstr ""

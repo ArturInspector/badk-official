@@ -12,7 +12,7 @@ from .models import (
 
 
 @admin.register(Cooperation)
-class CooperationAdmin(admin.ModelAdmin):
+class CooperationAdmin(TabbedTranslationAdmin):
     list_display = ('title',)
 
 
@@ -48,7 +48,7 @@ class DocumentFileInlines(admin.TabularInline):
 
 
 @admin.register(Document)
-class DocumentAdmin(admin.ModelAdmin):
+class DocumentAdmin(TabbedTranslationAdmin):
     list_display = ('title',)
     inlines = [DocumentFileInlines]
 
@@ -59,6 +59,6 @@ class EduProcessFileInlines(admin.TabularInline):
 
 
 @admin.register(EduProcess)
-class EduProcessAdmin(admin.ModelAdmin):
+class EduProcessAdmin(TabbedTranslationAdmin):
     list_display = ('title',)
     inlines = [EduProcessFileInlines]

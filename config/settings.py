@@ -6,6 +6,8 @@ import environs
 
 from pathlib import Path
 
+from django.utils.translation import gettext_lazy as _
+
 from common.utils import format_phone_number, get_generate_link_whatsapp
 from config.loginng_formatters import CustomJsonFormatter
 
@@ -15,17 +17,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 env = environs.Env()
 env.read_env('.env')
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = env.str('SECRET_KEY', 'dev')
 
-DEBUG = eval(os.environ.get('DEBUG'))
+DEBUG = env.bool('DEBUG', False)
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(' ')
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['localhost'])
 
 SITE_ID = 1
 
-CURRENT_SITE_URL = os.environ.get('CURRENT_SITE_URL')
+CURRENT_SITE_URL = env.str('CURRENT_SITE_URL', 'http://localhost')
 
-CSRF_TRUSTED_ORIGINS = os.environ.get('CSRF_TRUSTED_ORIGINS').split(' ')
+CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS', default=['http://localhost'])
 
 # Application definition
 INSTALLED_APPS = [
@@ -60,6 +62,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -92,12 +95,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASES = {
     "default": {
-        "ENGINE": os.environ.get("DATABASE_ENGINE", "django.db.backends.sqlite3"),
-        "NAME": os.environ.get("DATABASE_NAME", os.path.join(BASE_DIR / 'db.sqlite3')),
-        "USER": os.environ.get("DATABASE_USER", "user"),
-        "PASSWORD": os.environ.get("DATABASE_PASSWORD", "password"),
-        "HOST": os.environ.get("DATABASE_HOST", "postgres"),
-        "PORT": os.environ.get("DATABASE_PORT", "5432"),
+        "ENGINE": env.str("DATABASE_ENGINE", "django.db.backends.sqlite3"),
+        "NAME": env.str("DATABASE_NAME", os.path.join(BASE_DIR / 'db.sqlite3')),
+        "USER": env.str("DATABASE_USER", "user"),
+        "PASSWORD": env.str("DATABASE_PASSWORD", "password"),
+        "HOST": env.str("DATABASE_HOST", "postgres"),
+        "PORT": env.str("DATABASE_PORT", "5432"),
     }
 }
 
@@ -134,16 +137,23 @@ USE_I18N = True
 
 USE_TZ = True
 
-gettext = lambda s: s
 LANGUAGES = (
-    ('ru', gettext('Russia')),
-    ('en', gettext('English')),
-    ('ky', gettext('Kyrgyz')),
+    ('ru', _('Русский')),
+    ('ky', _('Кыргызча')),
+    ('en', _('English')),
 )
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'ru'
+MODELTRANSLATION_LANGUAGES = ('ru', 'ky', 'en')
+MODELTRANSLATION_FALLBACK_LANGUAGES = {
+    'default': ('ru',),
+    'ky': ('ru',),
+    'en': ('ru',),
+}
 
 if DEBUG:
     INSTALLED_APPS.append('debug_toolbar')
@@ -169,27 +179,27 @@ STYLE_RESPONSIVE_VERSION = os.environ.get("STYLE_RESPONSIVE_VERSION", "v1.0")
 
 CONTACTS = {
     "phone": {
-        "link": os.environ.get("CONTACTS_PHONE", "+996000000000"),
-        "value": format_phone_number(os.environ.get("CONTACTS_PHONE", "+996000000000"))
+        "link": env.str("CONTACTS_PHONE", "+996000000000"),
+        "value": format_phone_number(env.str("CONTACTS_PHONE", "+996000000000"))
     },
     "whatsapp": {
         "link": get_generate_link_whatsapp(
-            os.environ.get("CONTACTS_WHATSAPP", "+996000000000"),
-            os.environ.get(
+            env.str("CONTACTS_WHATSAPP", "+996000000000"),
+            env.str(
                 "CONTACTS_WHATSAPP_TEXT",
-                f"Здравствуйте!\n\nПишу из вашего сайта www.{os.environ.get("CONTACTS_SITE_OFFICIAL", "badk.kg")}\n")
+                f"Здравствуйте!\n\nПишу из вашего сайта www.{env.str('CONTACTS_SITE_OFFICIAL', 'badk.kg')}\n")
         ),
-        "value": format_phone_number(os.environ.get("CONTACTS_WHATSAPP", "+996000000000"))
+        "value": format_phone_number(env.str("CONTACTS_WHATSAPP", "+996000000000"))
     },
-    "email": os.environ.get("CONTACTS_EMAIL", "info@badk.kg"),
+    "email": env.str("CONTACTS_EMAIL", "info@badk.kg"),
     "sites": {
-        "official": os.environ.get("CONTACTS_SITE_OFFICIAL", "badk.kg"),
-        "edu_gov": os.environ.get("CONTACTS_SITE_EDU_GOV", "2020.edu.gov.kg"),
+        "official": env.str("CONTACTS_SITE_OFFICIAL", "badk.kg"),
+        "edu_gov": env.str("CONTACTS_SITE_EDU_GOV", "2020.edu.gov.kg"),
     },
     "socials": {
-        "instagram": os.environ.get("CONTACTS_SOCIAL_INSTAGRAM", "https://www.instagram.com/"),
-        "facebook": os.environ.get("CONTACTS_SOCIAL_FACEBOOK", "https://www.facebook.com/"),
-        "youtube": os.environ.get("CONTACTS_SOCIAL_YOUTUBE", "https://www.youtube.com/"),
+        "instagram": env.str("CONTACTS_SOCIAL_INSTAGRAM", "https://www.instagram.com/"),
+        "facebook": env.str("CONTACTS_SOCIAL_FACEBOOK", "https://www.facebook.com/"),
+        "youtube": env.str("CONTACTS_SOCIAL_YOUTUBE", "https://www.youtube.com/"),
     }
 }
 
@@ -200,12 +210,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Send Mail
 EMAIL_USE_TLS = True
-EMAIL_HOST = os.environ.get('EMAIL_HOST')
-EMAIL_PORT = os.environ.get('EMAIL_PORT')
+EMAIL_HOST = env.str('EMAIL_HOST', None)
+EMAIL_PORT = env.str('EMAIL_PORT', None)
 
-EMAIL_TITLE_FROM = os.environ.get('EMAIL_TITLE_FROM')
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_TITLE_FROM = env.str('EMAIL_TITLE_FROM', None)
+EMAIL_HOST_USER = env.str('EMAIL_HOST_USER', None)
+EMAIL_HOST_PASSWORD = env.str('EMAIL_HOST_PASSWORD', None)
 
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
