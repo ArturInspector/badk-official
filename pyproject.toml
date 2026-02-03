@@ -32,6 +32,30 @@ djangorestframework-simplejwt = "^5.3.1"
 django-cors-headers = "^4.3.1"
 setuptools = "^69.0.3"
 
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings.test"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--tb=short",
+    "--cov=apps",
+    "--cov=common",
+    "--cov=config",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+    "--cov-fail-under=70",
+    "-v"
+]
+markers = [
+    "slow: slow tests (integration)",
+    "unit: unit tests",
+    "integration: integration tests",
+    "api: API tests",
+    "models: model tests",
+]
 
 [build-system]
 requires = ["poetry-core"]
