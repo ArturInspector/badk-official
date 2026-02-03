@@ -48,11 +48,9 @@
 .header__slider {
   &-item {
     overflow: hidden;
-    border-radius: $--bs-radius-big;
-    & img {
-      width: 100%;
-    }
+    border-radius: 28px;
   }
+
   .slick-dots {
     position: absolute;
     bottom: 10px;
