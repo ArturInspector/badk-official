@@ -18,10 +18,11 @@ class TestNews:
         assert len(news.slug) > 0
 
     def test_active_manager(self):
+        from apps.news.models import News
         active_news = NewsFactory(is_active=True)
         inactive_news = NewsFactory(is_active=False)
 
-        active_queryset = news.active.all()
+        active_queryset = News.active.all()
         assert active_news in active_queryset
         assert inactive_news not in active_queryset
 
