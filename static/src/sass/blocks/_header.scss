@@ -1,4 +1,4 @@
-.header {
+.section.header {
   position: relative;
   overflow: hidden;
   margin-top: 0 !important;
@@ -62,27 +62,29 @@
   }
 }
 
-.header__slider {
-  position: relative;
-  border-radius: 28px;
-  overflow: hidden;
-  box-shadow: var(--shadow-xl);
-
-  &-item {
-    overflow: hidden;
+.section.header {
+  .header__slider {
+    position: relative;
     border-radius: 28px;
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      aspect-ratio: 4 / 3;
-      transform: scale(1.02);
-      transition: var(--transition-slow);
+    &-item {
+      overflow: hidden;
+      border-radius: 28px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 4 / 3;
+        transform: scale(1.02);
+        transition: var(--transition-slow);
+      }
     }
-  }
 
-  &:hover img {
-    transform: scale(1.06);
+    &:hover img {
+      transform: scale(1.06);
+    }
   }
 }
