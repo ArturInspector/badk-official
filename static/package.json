@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "gulp": "^4.0.2",
     "gulp-audiosprite": "^1.1.0",
     "gulp-autoprefixer": "^8.0.0",
