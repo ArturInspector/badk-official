@@ -1,5 +1,14 @@
 .section {
   margin: 20px 0;
-  padding: 40px 0;
+  padding: clamp(30px, 5vw, 60px) 0;
   border-radius: 30px;
+  position: relative;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }

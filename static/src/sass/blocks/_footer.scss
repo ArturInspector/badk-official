@@ -18,6 +18,8 @@
   &__social {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+
     & a {
       display: flex;
       justify-content: center;
@@ -28,10 +30,19 @@
       text-decoration: none;
       background-color: $--bs-official;
       color: $--bs-white;
-      border-radius: .5rem;
+      border-radius: var(--radius-small);
+      transition: var(--transition-base);
+      box-shadow: var(--shadow-sm);
+
       &:hover {
         background-color: $--bs-dark-official;
         color: $--bs-white;
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-md);
+      }
+
+      &:active {
+        transform: translateY(-1px);
       }
     }
   }
@@ -40,11 +51,16 @@
   } li {
     margin: 7px 0;
     list-style: none;
+
     & a {
       text-decoration: none;
       color: $--bs-text;
+      transition: var(--transition-fast);
+      display: inline-block;
+
       &:hover {
         color: $--bs-official;
+        transform: translateX(4px);
       }
     }
     &::marker {
