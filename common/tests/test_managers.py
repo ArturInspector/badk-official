@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.db import models
 from common.managers import ActiveManager
 from apps.core.tests.factories import DocumentFactory, EduProcessFactory
+from apps.core.models import Document
 
 
 @pytest.mark.django_db
@@ -11,7 +12,7 @@ class TestActiveManager:
         active_doc = DocumentFactory(is_active=True)
         inactive_doc = DocumentFactory(is_active=False)
 
-        active_queryset = DocumentFactory._meta.model.active.all()
+        active_queryset = Document.active.all()
         assert active_doc in active_queryset
         assert inactive_doc not in active_queryset
 
@@ -31,7 +32,7 @@ class TestActiveManager:
         DocumentFactory.create_batch(3, is_active=True)
         DocumentFactory.create_batch(2, is_active=False)
 
-        active_queryset = DocumentFactory._meta.model.active.all()
+        active_queryset = Document.active.all()
         assert active_queryset.count() == 3
         for item in active_queryset:
             assert item.is_active is True
