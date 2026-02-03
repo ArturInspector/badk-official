@@ -9,17 +9,22 @@
     z-index: 1;
     font-size: 0;
     border: none;
+    background: transparent;
+    transition: var(--transition-fast);
     &::before {
       font-size: 30px;
       line-height: 1;
       color: $--bs-white;
       background-color: $--bs-official;
-      border-radius: $--bs-radius-small;
-      padding: .3rem 1rem;
+      border-radius: 999px;
+      padding: .35rem .9rem;
+      box-shadow: var(--shadow-md);
       -webkit-font-smoothing: antialiased;
+      transition: var(--transition-fast);
     }
     &:hover::before {
-      background-color: #2e60e1;
+      background-color: $--bs-dark-official;
+      box-shadow: var(--shadow-lg);
     }
     &:focus {
       outline: none;
