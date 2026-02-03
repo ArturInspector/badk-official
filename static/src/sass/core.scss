@@ -12,10 +12,14 @@
 body {
   width: 100%;
   height: 100%;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 ::-webkit-scrollbar {
@@ -39,10 +43,11 @@ html {
 }
 
 .desc-body {
-  font-size: 17px;
-  line-height: 27px;
+  font-size: clamp(15px, 1.0625rem, 17px);
+  line-height: 1.65;
   color: $--bs-text;
   text-align: justify;
+  margin-bottom: 1rem;
 }
 
 #button_up {
@@ -54,22 +59,38 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: #fff!important;
+  color: #fff !important;
   position: fixed;
   bottom: 30px;
   right: 30px;
   z-index: 9;
   border-radius: $--bs-radius-small;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-base);
+  cursor: pointer;
+
+  &:hover {
+    background: $--bs-dark-official;
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+
+    i {
+      display: inline-block;
+      transform: translate(0, -30%);
+    }
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+
   i {
-    transition: all 0.5s;
+    transition: var(--transition-base);
   }
-  &:hover i {
-    display: inline-block;
-    transform: translate(0, -30%);
-  }
-  &:focus, &:active {
-    border: none;
-    outline: aliceblue;
+
+  &:focus {
+    outline: 2px solid $--bs--light-official;
+    outline-offset: 2px;
   }
 }
 
