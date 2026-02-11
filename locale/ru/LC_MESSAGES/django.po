@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-03 12:29+0600\n"
+"POT-Creation-Date: 2026-02-11 12:53+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
 #: apps/core/models.py:25 apps/core/models.py:38 apps/core/models.py:82
 #: apps/core/models.py:109 apps/employee/models.py:14
 #: apps/employee/models.py:32 apps/news/models.py:15
@@ -805,15 +806,15 @@ msgstr ""
 msgid "Студенческий совет"
 msgstr ""
 
-#: config/settings.py:141
+#: config/settings.py:142
 msgid "Русский"
 msgstr ""
 
-#: config/settings.py:142
+#: config/settings.py:143
 msgid "Кыргызча"
 msgstr ""
 
-#: config/settings.py:143
+#: config/settings.py:144
 msgid "English"
 msgstr ""
 

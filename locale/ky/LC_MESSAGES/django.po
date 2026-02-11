@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-03 12:29+0600\n"
+"POT-Creation-Date: 2026-02-11 12:53+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
 #: apps/core/models.py:25 apps/core/models.py:38 apps/core/models.py:82
 #: apps/core/models.py:109 apps/employee/models.py:14
 #: apps/employee/models.py:32 apps/news/models.py:15
@@ -34,7 +35,7 @@ msgstr ""
 #: apps/core/templates/index.html:227 templates/base/footer.html:35
 #: templates/base/menu.html:52
 msgid "Сотрудничество"
-msgstr ""
+msgstr "Кызматташтык"
 
 #: apps/core/models.py:40 apps/news/models.py:17 apps/specialty/models.py:28
 msgid "Описание"
@@ -55,7 +56,7 @@ msgstr ""
 #: apps/core/templates/collaborations/internationals.html:14
 #: apps/core/templates/index.html:228 templates/base/menu.html:53
 msgid "Международное сотрудничество"
-msgstr ""
+msgstr "Эл аралык кызматташтык"
 
 #: apps/core/models.py:65
 msgid "Международные сотрудничество"
@@ -81,7 +82,7 @@ msgstr ""
 #: apps/core/models.py:90 apps/core/templates/documents/list.html:5
 #: apps/core/templates/documents/list.html:13 templates/base/menu.html:50
 msgid "Нормативные документы"
-msgstr ""
+msgstr "Нормативдик документтер"
 
 #: apps/core/models.py:94 apps/core/models.py:127
 msgid "Документ"
@@ -102,7 +103,7 @@ msgstr ""
 #: apps/core/models.py:122 apps/core/templates/edu_process_detail.html:13
 #: templates/base/menu.html:58
 msgid "Учебный процесс"
-msgstr ""
+msgstr "Окуу процесси"
 
 #: apps/core/models.py:123
 msgid "Учебные процессы"
@@ -176,7 +177,7 @@ msgstr ""
 #: apps/core/templates/passport-college.html:18
 #: apps/employee/templates/employee/index.html:10 templates/base/menu.html:42
 msgid "О колледже"
-msgstr ""
+msgstr "Колледж тууралуу"
 
 #: apps/core/templates/history.html:15 apps/core/templates/index.html:45
 #, python-format
@@ -342,29 +343,31 @@ msgstr ""
 
 #: apps/core/templates/index.html:15
 msgid "Бишкекский автомобильно-дорожный колледж имени Кусаина Кольбаева"
-msgstr ""
+msgstr "К.Көлбаев атындагы Бишкек автомобиль-жол колледжи"
 
 #: apps/core/templates/index.html:17 templates/base/footer.html:11
 msgid "Миссия колледжа"
-msgstr ""
+msgstr "Колледждин миссиясы"
 
 #: apps/core/templates/index.html:18 templates/base/footer.html:12
 msgid ""
 "Обеспечить высокое качество образования, вдохновляя студентов и "
 "преподавателей к постоянному развитию и достижению успеха."
 msgstr ""
+"Студенттерди жана окутуучуларды туруктуу өнүгүүгө шыктандырып, сапаттуу "
+"билим берүү."
 
 #: apps/core/templates/index.html:20
 msgid "Связаться с нами "
-msgstr ""
+msgstr "Биз менен байланышыңыз"
 
 #: apps/core/templates/index.html:41
 msgid "История колледжа"
-msgstr ""
+msgstr "Колледж тарыхы"
 
 #: apps/core/templates/index.html:42
 msgid "История развития учебного заведения"
-msgstr ""
+msgstr "Окуу жайдын өнүгүү тарыхы"
 
 #: apps/core/templates/index.html:48
 msgid ""
@@ -376,36 +379,36 @@ msgstr ""
 
 #: apps/core/templates/index.html:50
 msgid "Подробно"
-msgstr ""
+msgstr "Толугураак"
 
 #: apps/core/templates/index.html:67 apps/news/views.py:17
 msgid "Новости колледжа"
-msgstr ""
+msgstr "Колледж жаңылыктары"
 
 #: apps/core/templates/index.html:68 apps/news/models.py:50
 #: apps/news/views.py:16 apps/news/views.py:31 templates/base/footer.html:32
 #: templates/base/menu.html:49
 msgid "Новости"
-msgstr ""
+msgstr "Жаңылыктар"
 
 #: apps/core/templates/index.html:93
 #: apps/specialty/templates/specialty/list.html:4
 #: apps/specialty/templates/specialty/list.html:13
 #: templates/base/footer.html:34
 msgid "Наши специальности"
-msgstr ""
+msgstr "Биздин адистиктер"
 
 #: apps/core/templates/index.html:94 apps/specialty/models.py:61
 msgid "Специальности"
-msgstr ""
+msgstr "Адистиктер"
 
 #: apps/core/templates/index.html:125
 msgid "О библиотеке"
-msgstr ""
+msgstr "Китепкана тууралуу"
 
 #: apps/core/templates/index.html:128
 msgid "Электронно-библиотечная система «Эл-Китеп»"
-msgstr ""
+msgstr "Электрондук китепкана «Эл-Китеп»"
 
 #: apps/core/templates/index.html:134
 msgid ""
@@ -417,38 +420,38 @@ msgstr ""
 
 #: apps/core/templates/index.html:138
 msgid "Перейти"
-msgstr ""
+msgstr "Өтүү"
 
 #: apps/core/templates/index.html:157 apps/core/templates/index.html:203
 #: apps/student/templates/student/index.html:10 apps/student/views.py:33
 #: templates/base/menu.html:86
 msgid "Студентам"
-msgstr ""
+msgstr "Студенттерге"
 
 #: apps/core/templates/index.html:158 apps/student/views.py:32
 #: apps/student/views.py:47 templates/base/menu.html:97
 msgid "Студенческая жизнь"
-msgstr ""
+msgstr "Студенттик жашоо"
 
 #: apps/core/templates/index.html:180
 #: apps/employee/templates/employee/index.html:11 templates/base/menu.html:48
 msgid "Структура"
-msgstr ""
+msgstr "Структура"
 
 #: apps/core/templates/index.html:204
 msgid "Члены студенческого совета"
-msgstr ""
+msgstr "Студенттик кеңештин мүчөлөрү"
 
 #: apps/core/templates/passport-college.html:5
 #: apps/core/templates/passport-college.html:19 templates/base/menu.html:47
 msgid "Паспорт колледжа"
-msgstr ""
+msgstr "Колледж паспорту"
 
 #: apps/core/templates/reception.html:5 apps/core/templates/reception.html:14
 #: apps/core/templates/reception.html:30 templates/base/footer.html:33
 #: templates/base/menu.html:71
 msgid "Абитуриентам"
-msgstr ""
+msgstr "Абитуриенттерге"
 
 #: apps/core/templates/reception.html:15
 msgid "Уважаемые абитуриенты!"
@@ -529,12 +532,12 @@ msgstr ""
 #: apps/core/templates/reception.html:64
 #: apps/specialty/templates/specialty/detail.html:34
 msgid "На базе 11 класса"
-msgstr ""
+msgstr "11-класстын базасында"
 
 #: apps/core/templates/reception.html:64
 #: apps/specialty/templates/specialty/detail.html:34
 msgid "1 год 10 месяцев"
-msgstr ""
+msgstr "1 жыл 10 ай"
 
 #: apps/core/templates/reception.html:68
 #: apps/employee/templates/employee/employee_detail.html:33
@@ -543,15 +546,15 @@ msgstr ""
 #: templates/base/footer.html:39 templates/base/menu.html:7
 #: templates/base/menu.html:102
 msgid "Контакты"
-msgstr ""
+msgstr "Байланыштар"
 
 #: apps/core/templates/reception.html:70
 msgid "Телефон"
-msgstr ""
+msgstr "Телефон"
 
 #: apps/core/templates/reception.html:75
 msgid "Сайт"
-msgstr ""
+msgstr "Сайт"
 
 #: apps/employee/models.py:15
 msgid "Короткое название"
@@ -801,17 +804,17 @@ msgstr ""
 
 #: apps/student/templates/student/index.html:11 templates/base/menu.html:94
 msgid "Студенческий совет"
-msgstr ""
+msgstr "Студенттик кеңеш"
 
-#: config/settings.py:141
+#: config/settings.py:142
 msgid "Русский"
 msgstr ""
 
-#: config/settings.py:142
+#: config/settings.py:143
 msgid "Кыргызча"
 msgstr ""
 
-#: config/settings.py:143
+#: config/settings.py:144
 msgid "English"
 msgstr ""
 
@@ -821,44 +824,44 @@ msgstr ""
 
 #: templates/base/footer.html:8
 msgid "Бишкекский автомобильно-дорожный колледж"
-msgstr ""
+msgstr "К.Көлбаев атындагы Бишкек автомобиль-жол колледжи"
 
 #: templates/base/footer.html:14
 msgid "Наши социальные сети"
-msgstr ""
+msgstr "Биздин социалдык тармактар"
 
 #: templates/base/footer.html:29
 msgid "Быстрое меню"
-msgstr ""
+msgstr "Ыкчам меню"
 
 #: templates/base/footer.html:31
 msgid "О Нас"
-msgstr ""
+msgstr "Биз жөнүндө"
 
 #: templates/base/footer.html:74
 msgid "«БАДК» - Все права защищены."
-msgstr ""
+msgstr "«БАДК» - Бардык укуктар корголгон."
 
 #: templates/base/menu.html:39
 msgid "Главная"
-msgstr ""
+msgstr "Башкы бет"
 
 #: templates/base/menu.html:46
 msgid "История"
-msgstr ""
+msgstr "Тарых"
 
 #: templates/base/menu.html:51
 msgid "Библиотека"
-msgstr ""
+msgstr "Китепкана"
 
 #: templates/base/menu.html:76
 msgid "Приемная комиссия"
-msgstr ""
+msgstr "Кабыл алуу комиссиясы"
 
 #: templates/base/menu.html:80
 msgid "Наши Специальности"
-msgstr ""
+msgstr "Биздин адистиктер"
 
 #: templates/base/menu.html:91
 msgid "Дистанционное обучение «AVN»"
-msgstr ""
+msgstr "Аралыктан окутуу «AVN»"

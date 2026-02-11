@@ -33,6 +33,7 @@ CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS', default=['http://localho
 INSTALLED_APPS = [
     'modeltranslation',
     'django.contrib.admin',
+    'rosetta',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -154,6 +155,8 @@ MODELTRANSLATION_FALLBACK_LANGUAGES = {
     'ky': ('ru',),
     'en': ('ru',),
 }
+ROSETTA_ACCESS_CONTROL_FUNCTION = 'config.rosetta_access.can_manage_translations'
+ROSETTA_SAVE_COMPILED_MESSAGES = True
 
 if DEBUG:
     INSTALLED_APPS.append('debug_toolbar')
