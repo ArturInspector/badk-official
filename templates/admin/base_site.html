@@ -1,0 +1,7 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block userlinks %}
+    <a href="/rosetta/" style="margin-right: 20px; color: #ffffff;">🌐 {% trans "Переводы" %}</a>
+    {{ block.super }}
+{% endblock %}

@@ -9,7 +9,7 @@ COPY poetry.lock pyproject.toml /var/www/project/
 
 WORKDIR /var/www/project
 
-RUN poetry config virtualenvs.in-project true \
+RUN poetry config virtualenvs.create false \
     && poetry install --no-root
 
 COPY . /var/www/project
