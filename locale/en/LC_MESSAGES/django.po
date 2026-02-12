@@ -22,11 +22,11 @@ msgstr ""
 #: apps/core/models.py:109 apps/employee/models.py:14
 #: apps/employee/models.py:32 apps/news/models.py:15
 msgid "Название"
-msgstr ""
+msgstr "Title"
 
 #: apps/core/models.py:26 apps/core/models.py:97 apps/core/models.py:130
 msgid "Файл"
-msgstr ""
+msgstr "File"
 
 #: apps/core/models.py:32 apps/core/models.py:33
 #: apps/core/templates/collaborations/cooperation.html:5
@@ -39,16 +39,16 @@ msgstr "Cooperation"
 
 #: apps/core/models.py:40 apps/news/models.py:17 apps/specialty/models.py:28
 msgid "Описание"
-msgstr ""
+msgstr "Description"
 
 #: apps/core/models.py:41 apps/news/models.py:41 apps/specialty/models.py:32
 #: apps/student/models.py:30
 msgid "Фото"
-msgstr ""
+msgstr "Photo"
 
 #: apps/core/models.py:44
 msgid "Договор (PDF)"
-msgstr ""
+msgstr "Contract (PDF)"
 
 #: apps/core/models.py:64
 #: apps/core/templates/collaborations/international-detail.html:21
@@ -60,24 +60,24 @@ msgstr "International cooperation"
 
 #: apps/core/models.py:65
 msgid "Международные сотрудничество"
-msgstr ""
+msgstr "International cooperations"
 
 #: apps/core/models.py:71 apps/core/models.py:77 apps/news/models.py:56
 #: apps/news/models.py:67 apps/student/models.py:45 apps/student/models.py:56
 msgid "Фотография"
-msgstr ""
+msgstr "Photograph"
 
 #: apps/core/models.py:78 apps/news/models.py:68 apps/student/models.py:57
 msgid "Фотографии"
-msgstr ""
+msgstr "Photographs"
 
 #: apps/core/models.py:83 apps/core/models.py:110
 msgid "Активный"
-msgstr ""
+msgstr "Active"
 
 #: apps/core/models.py:89
 msgid "Нормативный документ"
-msgstr ""
+msgstr "Regulatory document"
 
 #: apps/core/models.py:90 apps/core/templates/documents/list.html:5
 #: apps/core/templates/documents/list.html:13 templates/base/menu.html:50
@@ -86,19 +86,19 @@ msgstr "Regulatory documents"
 
 #: apps/core/models.py:94 apps/core/models.py:127
 msgid "Документ"
-msgstr ""
+msgstr "Document"
 
 #: apps/core/models.py:95 apps/core/models.py:128
 msgid "Название файла"
-msgstr ""
+msgstr "File name"
 
 #: apps/core/models.py:104
 msgid "Файл документа"
-msgstr ""
+msgstr "Document file"
 
 #: apps/core/models.py:105
 msgid "Файлы документа"
-msgstr ""
+msgstr "Document files"
 
 #: apps/core/models.py:122 apps/core/templates/edu_process_detail.html:13
 #: templates/base/menu.html:58
@@ -107,71 +107,71 @@ msgstr "Educational process"
 
 #: apps/core/models.py:123
 msgid "Учебные процессы"
-msgstr ""
+msgstr "Educational processes"
 
 #: apps/core/models.py:137
 msgid "Файл учебного процесса"
-msgstr ""
+msgstr "Educational process file"
 
 #: apps/core/models.py:138
 msgid "Файлы учебных процессов"
-msgstr ""
+msgstr "Educational process files"
 
 #: apps/core/models.py:143
 msgid "Мужской"
-msgstr ""
+msgstr "Male"
 
 #: apps/core/models.py:144
 msgid "Женский"
-msgstr ""
+msgstr "Female"
 
 #: apps/core/models.py:147
 msgid "Порядковый номер"
-msgstr ""
+msgstr "Sequence number"
 
 #: apps/core/models.py:148
 msgid "Фамилия"
-msgstr ""
+msgstr "Last name"
 
 #: apps/core/models.py:149
 msgid "Имя"
-msgstr ""
+msgstr "First name"
 
 #: apps/core/models.py:150
 msgid "Отчество"
-msgstr ""
+msgstr "Patronymic"
 
 #: apps/core/models.py:152
 msgid "Пол"
-msgstr ""
+msgstr "Gender"
 
 #: apps/core/models.py:153
 msgid "День рождения"
-msgstr ""
+msgstr "Birth date"
 
 #: apps/core/templates/collaborations/cooperation.html:13
 #: apps/core/templates/documents/detail.html:13
 #: apps/core/templates/documents/list.html:12
 msgid "О Колледже"
-msgstr ""
+msgstr "About the college"
 
 #: apps/core/templates/collaborations/international-detail.html:32
 msgid "Договор"
-msgstr ""
+msgstr "Contract"
 
 #: apps/core/templates/collaborations/international-detail.html:38
 #: apps/news/templates/news/detail.html:31
 msgid "Фотогалерея"
-msgstr ""
+msgstr "Photo gallery"
 
 #: apps/core/templates/collaborations/international-detail.html:44
 #: apps/news/templates/news/detail.html:37
 msgid "Посмотреть"
-msgstr ""
+msgstr "View"
 
 #: apps/core/templates/history.html:4 apps/core/templates/history.html:11
 msgid "История создания и развития учебного заведения"
-msgstr ""
+msgstr "History of the institution's creation and development"
 
 #: apps/core/templates/history.html:10 apps/core/templates/index.html:179
 #: apps/core/templates/passport-college.html:18
@@ -185,157 +185,126 @@ msgid ""
 "Кыргызская Республика расположена в горной местности. Более 95%% перевозок "
 "грузов и пассажиров осуществляется автомобильным транспортом и часть "
 "железнодорожным. Поэтому республика нуждалась в подготовке специалистов "
-"среднего звена, владеющих навыками обслуживания, эксплуатации автотранспорта "
-"и строительства автомобильных и железных дорог."
+"среднего звена, владеющих навыками обслуживания, эксплуатации автотранспорта"
+" и строительства автомобильных и железных дорог."
 msgstr ""
+"The Kyrgyz Republic is mountainous. Over 95%% of freight and passenger "
+"transport is by road and partly by rail. Therefore the republic needed mid-"
+"level specialists skilled in maintaining and operating vehicles and in "
+"building roads and railways."
 
 #: apps/core/templates/history.html:18
 msgid ""
 "В 1939 году при Фрунзенском индустриальном техникуме было создано "
 "автомобильное отделение из одной группы, которое готовило механиков по "
-"техническому обслуживанию и ремонту автомобилей. Первый выпуск из 14 человек "
-"состоялся в 1942 году. Трасса Бишкек-Ош"
+"техническому обслуживанию и ремонту автомобилей. Первый выпуск из 14 человек"
+" состоялся в 1942 году. Трасса Бишкек-Ош"
 msgstr ""
+"In 1939 an automotive department was created at the Frunze Industrial "
+"Technical School from a single group, training mechanics for vehicle "
+"maintenance and repair. The first graduation of 14 people took place in "
+"1942. Bishkek–Osh highway."
 
 #: apps/core/templates/history.html:22
 msgid ""
 "\n"
-"                        В это время потребность в специалистах автодорожного "
-"направления была настолько велика, несмотря\n"
-"                        на то, что шла Великая Отечественная война, в 1943 "
-"году был создан самостоятельный\n"
-"                        автомобильно-дорожный техникум. Руководителем новой "
-"кузницы кадров для автомобильной и\n"
-"                        дорожной отраслей стал Г. А. Светличный. "
-"Первоначально техникум размещался в городе Фрунзе в\n"
-"                        одном из помещений напротив табачной фабрики, а "
-"затем — до 1946 года – находился в здании\n"
-"                        железнодорожного вокзала. Здесь учились будущие "
-"преподаватели техникума П.К. Денисов,\n"
-"                        Т. У. Умарбеков, Д.У., Убышев. В 1946 году техникум "
-"был переведен на первый этаж нынешнего\n"
-"                        архитектурно строительного колледжа. А через год "
-"техникум преобразовали в автомобильное\n"
-"                        отделение строительно-индустриального техникума, "
-"который был передан в ведение Министерства\n"
-"                        строительства Киргизской ССР. Прошло несколько лет и "
-"стало очевидным, что существующая система\n"
-"                        профессиональной подготовки специалистов среднего "
-"звена в области автотранспорта и дорожного\n"
+"                        В это время потребность в специалистах автодорожного направления была настолько велика, несмотря\n"
+"                        на то, что шла Великая Отечественная война, в 1943 году был создан самостоятельный\n"
+"                        автомобильно-дорожный техникум. Руководителем новой кузницы кадров для автомобильной и\n"
+"                        дорожной отраслей стал Г. А. Светличный. Первоначально техникум размещался в городе Фрунзе в\n"
+"                        одном из помещений напротив табачной фабрики, а затем — до 1946 года – находился в здании\n"
+"                        железнодорожного вокзала. Здесь учились будущие преподаватели техникума П.К. Денисов,\n"
+"                        Т. У. Умарбеков, Д.У., Убышев. В 1946 году техникум был переведен на первый этаж нынешнего\n"
+"                        архитектурно строительного колледжа. А через год техникум преобразовали в автомобильное\n"
+"                        отделение строительно-индустриального техникума, который был передан в ведение Министерства\n"
+"                        строительства Киргизской ССР. Прошло несколько лет и стало очевидным, что существующая система\n"
+"                        профессиональной подготовки специалистов среднего звена в области автотранспорта и дорожного\n"
 "                        хозяйства не удовлетворяет потребностям республики.\n"
 "                    "
 msgstr ""
+"\n"
+"At that time the demand for road-transport specialists was so high that, despite World War II, in 1943 an independent road technical school was established. G. A. Svetlichny became head of the new training center for the automotive and road sectors. Initially the school was located in Frunze opposite the tobacco factory, and then until 1946 in the railway station building. Future teachers of the school studied there: P.K. Denisov, T.U. Umarbekov, D.U. Ubyshov. In 1946 the school was moved to the first floor of the present construction college. A year later it was converted into the automotive department of the construction-industrial technical school, which was transferred to the Ministry of Construction of the Kyrgyz SSR. After a few years it became clear that the existing system of training mid-level specialists in transport and road sectors did not meet the republic’s needs."
 
 #: apps/core/templates/history.html:39
 msgid ""
 "\n"
-"                        Идея возрождения автомобильно-дорожного техникума "
-"принадлежала министру автотранспорта и\n"
-"                        шоссейных дорог республики Кусаину Кольбаеву. В "
-"соответствии с Постановлением Совета\n"
-"                        Министров СССР от 29 июня 1954г. № 1294 «О "
-"подготовке инженерно-технических кадров для\n"
-"                        автомобильного транспорта и дорожного хозяйства» "
-"Совет Министров Киргизской ССР постановляет:\n"
-"                        «Обязать Министерство автомобильного транспорта и "
-"шоссейных дорог Киргизской ССР:\n"
-"                        1. Обеспечить окончание строительства учебного "
-"корпуса автомобильно-дорожного техникума в\n"
-"                        г.Фрунзе и ввод в его в действие с 1 сентября 1957 "
-"года; 2. Открыть в 1957 году в г. Фрунзе\n"
-"                        автомобильно-дорожный техникум первой категории по "
-"специальностям: Эксплуатация и ремонт\n"
-"                        автомобильного транспорта; Дорожные машины и "
-"оборудование; Строительство и эксплуатация\n"
-"                        автомобильных дорог и мостов». Председатель Совета "
-"Министров Киргизской ССР А.Суеркулов.»\n"
+"                        Идея возрождения автомобильно-дорожного техникума принадлежала министру автотранспорта и\n"
+"                        шоссейных дорог республики Кусаину Кольбаеву. В соответствии с Постановлением Совета\n"
+"                        Министров СССР от 29 июня 1954г. № 1294 «О подготовке инженерно-технических кадров для\n"
+"                        автомобильного транспорта и дорожного хозяйства» Совет Министров Киргизской ССР постановляет:\n"
+"                        «Обязать Министерство автомобильного транспорта и шоссейных дорог Киргизской ССР:\n"
+"                        1. Обеспечить окончание строительства учебного корпуса автомобильно-дорожного техникума в\n"
+"                        г.Фрунзе и ввод в его в действие с 1 сентября 1957 года; 2. Открыть в 1957 году в г. Фрунзе\n"
+"                        автомобильно-дорожный техникум первой категории по специальностям: Эксплуатация и ремонт\n"
+"                        автомобильного транспорта; Дорожные машины и оборудование; Строительство и эксплуатация\n"
+"                        автомобильных дорог и мостов». Председатель Совета Министров Киргизской ССР А.Суеркулов.»\n"
 "                    "
 msgstr ""
+"\n"
+"The idea to revive the road technical school belonged to the Minister of Motor Transport and Highways of the republic, Kusain Kolbaev. According to the decree of the USSR Council of Ministers of June 29, 1954 No.1294 “On training engineering and technical personnel for road transport and road management,” the Council of Ministers of the Kyrgyz SSR ordered: ensure completion of the academic building in Frunze and open, from September 1, 1957, a first-category road technical school with specialties in vehicle operation and repair, road machinery and equipment, and construction and maintenance of roads and bridges. Chairman of the Council of Ministers of the Kyrgyz SSR A. Suerkulov."
 
 #: apps/core/templates/history.html:53
 msgid ""
 "\n"
-"                        Для реализации этой задачи, Постановлением Совета "
-"Министров Киргизской ССР за №209 от 19 июня\n"
-"                        1957 года в г. Фрунзе создаётся автомобильно-"
-"дорожный техникум первой категории. Был объявлен\n"
-"                        прием по названным выше специальностям. 1957 год "
-"считается годом образования нашего колледжа.\n"
-"                        Постановлением Правительства Кыргызской Республики "
-"от 22 декабря 1997 г. №743 техникум\n"
-"                        переименован в Бишкекский автомобильно-дорожный "
-"техникум им. Кусаина Кольбаева.\n"
+"                        Для реализации этой задачи, Постановлением Совета Министров Киргизской ССР за №209 от 19 июня\n"
+"                        1957 года в г. Фрунзе создаётся автомобильно-дорожный техникум первой категории. Был объявлен\n"
+"                        прием по названным выше специальностям. 1957 год считается годом образования нашего колледжа.\n"
+"                        Постановлением Правительства Кыргызской Республики от 22 декабря 1997 г. №743 техникум\n"
+"                        переименован в Бишкекский автомобильно-дорожный техникум им. Кусаина Кольбаева.\n"
 "                    "
 msgstr ""
+"\n"
+"To implement this, decree No.209 of June 19, 1957 of the Council of Ministers of the Kyrgyz SSR established a first-category road technical school in Frunze. Admission was announced for the specialties above. 1957 is considered the founding year of our college. By Government decree of the Kyrgyz Republic dated December 22, 1997 No.743, the school was renamed the Bishkek Automobile-Road Technical School named after Kusain Kolbaev."
 
 #: apps/core/templates/history.html:63
 msgid ""
 "\n"
-"                        «Первый инженер» — так называли Кольбаева К.К., на "
-"всех постах, куда бы его не направляли и не\n"
-"                        выдвигали, он проявлял себя как умелый организатор и "
-"грамотный специалист, внес огромный вклад\n"
-"                        в развитие и укрепление материально-технической базы "
-"транспортного и дорожного хозяйств\n"
-"                        Кыргызстана. Большое внимание Кусаин Кольбаев уделял "
-"подготовке и обучению квалифицированных\n"
-"                        кадров. Память о «Первом инженере» вызывает у нас "
-"особое чувство гордости, а также обязывает\n"
-"                        всех работников автотранспортного и дорожного "
-"хозяйств трудиться добросовестно и грамотно, как\n"
-"                        работал всю жизнь верный сын Кыргызстана — Кольбаев "
-"Кусаин Кольбаевич. Кольбаев Кусаин\n"
-"                        Кольбаевич родился 25 ноября 1908 года. В 1925 году "
-"он в числе первых комсомольцев Киргизии\n"
-"                        был направлен на учебу в город Тверь. В 1930 году "
-"поступил в Ленинградский институт путей\n"
+"                        «Первый инженер» — так называли Кольбаева К.К., на всех постах, куда бы его не направляли и не\n"
+"                        выдвигали, он проявлял себя как умелый организатор и грамотный специалист, внес огромный вклад\n"
+"                        в развитие и укрепление материально-технической базы транспортного и дорожного хозяйств\n"
+"                        Кыргызстана. Большое внимание Кусаин Кольбаев уделял подготовке и обучению квалифицированных\n"
+"                        кадров. Память о «Первом инженере» вызывает у нас особое чувство гордости, а также обязывает\n"
+"                        всех работников автотранспортного и дорожного хозяйств трудиться добросовестно и грамотно, как\n"
+"                        работал всю жизнь верный сын Кыргызстана — Кольбаев Кусаин Кольбаевич. Кольбаев Кусаин\n"
+"                        Кольбаевич родился 25 ноября 1908 года. В 1925 году он в числе первых комсомольцев Киргизии\n"
+"                        был направлен на учебу в город Тверь. В 1930 году поступил в Ленинградский институт путей\n"
 "                        сообщения на автомобильно-дорожный факультет.\n"
 "                    "
 msgstr ""
+"\n"
+"“The First Engineer” — that was Kolbaev’s nickname. Wherever he served, he proved a skilled organizer and specialist, making a huge contribution to developing the transport and road infrastructure of Kyrgyzstan. He devoted great attention to training qualified personnel. The memory of the First Engineer inspires pride and obliges all transport and road workers to labor diligently, as did this loyal son of Kyrgyzstan. Kusain Kolbaev was born on November 25, 1908. In 1925 he was among the first Komsomol members sent to study in Tver. In 1930 he entered the Leningrad Institute of Railway Transport, road and automobile faculty."
 
 #: apps/core/templates/history.html:77
 msgid ""
 "\n"
-"                        Кольбаев Кусаин Кольбаевич родился 25 ноября 1908 "
-"года. В 1925 году он в числе первых\n"
-"                        комсомольцев Киргизии был направлен на учебу в город "
-"Тверь. В 1930 году поступил в\n"
-"                        Ленинградский институт путей сообщения на "
-"автомобильно-дорожный факультет.\n"
+"                        Кольбаев Кусаин Кольбаевич родился 25 ноября 1908 года. В 1925 году он в числе первых\n"
+"                        комсомольцев Киргизии был направлен на учебу в город Тверь. В 1930 году поступил в\n"
+"                        Ленинградский институт путей сообщения на автомобильно-дорожный факультет.\n"
 "                    "
 msgstr ""
+"\n"
+"Kusain Kolbaev was born on November 25, 1908. In 1925 he was among the first Komsomol members of Kyrgyzstan sent to study in Tver. In 1930 he entered the Leningrad Institute of Railway Transport, automobile-road faculty."
 
 #: apps/core/templates/history.html:84
 msgid ""
 "\n"
-"                        Следует отметить, что Кусаин Кольбаев вошел в "
-"историю и как человек, который развил сеть\n"
-"                        автомобильных дорог и автотранспортных предприятий, "
-"называемых в простонародье «автобазы».\n"
-"                        Благодаря его профессионализму и настойчивости в "
-"нашей стране появились транспортные развязки\n"
-"                        республиканского значения: Бишкек — Талас, Бишкек — "
-"Ош. Самые трудные и сложные годы были\n"
-"                        пятидесятые: практически ни одного метра "
-"автомобильной дороги с твердым покрытием, а все\n"
-"                        крупные мостовые переходы — деревянные и временные, "
-"все дорожные работы велись вручную, не\n"
-"                        хватало техники. Кольбаев полностью себя отдавал "
-"труду. За 17 лет он смог практически всю\n"
-"                        республику обеспечить дорожными развязками с твердым "
-"покрытием, создал крупные железобетонные\n"
-"                        предприятия. В общем, Кусаин Кольбаев сделал "
-"невозможное возможным. За годы его работы\n"
-"                        построили дороги Бишкек — Рыбачье — Нарын — Торугарт "
-"(550 км), трассы вокруг озера Иссык-Куль\n"
-"                        (450 км), Талдысу — Санташ — Каркыра (100 км), Нарын "
-"— Акталчат — Коштюбе — Казарман (250 км),\n"
-"                        горные перевалы и многое другое. Именно при нем были "
-"проложены основные артерии экономики\n"
-"                        страны: Бишкек — Ош, Бишкек — Торугарт, Бишкек – "
-"Талас.\n"
+"                        Следует отметить, что Кусаин Кольбаев вошел в историю и как человек, который развил сеть\n"
+"                        автомобильных дорог и автотранспортных предприятий, называемых в простонародье «автобазы».\n"
+"                        Благодаря его профессионализму и настойчивости в нашей стране появились транспортные развязки\n"
+"                        республиканского значения: Бишкек — Талас, Бишкек — Ош. Самые трудные и сложные годы были\n"
+"                        пятидесятые: практически ни одного метра автомобильной дороги с твердым покрытием, а все\n"
+"                        крупные мостовые переходы — деревянные и временные, все дорожные работы велись вручную, не\n"
+"                        хватало техники. Кольбаев полностью себя отдавал труду. За 17 лет он смог практически всю\n"
+"                        республику обеспечить дорожными развязками с твердым покрытием, создал крупные железобетонные\n"
+"                        предприятия. В общем, Кусаин Кольбаев сделал невозможное возможным. За годы его работы\n"
+"                        построили дороги Бишкек — Рыбачье — Нарын — Торугарт (550 км), трассы вокруг озера Иссык-Куль\n"
+"                        (450 км), Талдысу — Санташ — Каркыра (100 км), Нарын — Акталчат — Коштюбе — Казарман (250 км),\n"
+"                        горные перевалы и многое другое. Именно при нем были проложены основные артерии экономики\n"
+"                        страны: Бишкек — Ош, Бишкек — Торугарт, Бишкек – Талас.\n"
 "                    "
 msgstr ""
+"\n"
+"It is worth noting that Kusain Kolbaev went down in history as the person who expanded the road network and transport enterprises (“autobases”). Thanks to his professionalism and persistence, major intercity routes appeared: Bishkek–Talas, Bishkek–Osh, and more. The hardest years were the 1950s: almost no paved roads, wooden temporary bridges, all road work done by hand, lack of machinery. Kolbaev gave himself fully to the work. In 17 years he provided the republic with paved road junctions and built major reinforced-concrete plants. He made the impossible possible. Under him roads were built: Bishkek–Rybachye–Naryn–Torugart (550 km), around Issyk-Kul lake (450 km), Taldysu–Santas–Karkyra (100 km), Naryn–Aktalchat–Koshtyube–Kazaraman (250 km), mountain passes and more. He laid the main arteries of the country’s economy: Bishkek–Osh, Bishkek–Torugart, Bishkek–Talas."
 
 #: apps/core/templates/index.html:15
 msgid "Бишкекский автомобильно-дорожный колледж имени Кусаина Кольбаева"
@@ -369,9 +338,12 @@ msgstr "Institution development history"
 msgid ""
 "В 1939 году при Фрунзенском индустриальном техникуме было создано "
 "автомобильное отделение из одной группы, которое готовило механиков по "
-"техническому обслуживанию и ремонту автомобилей. Первый выпуск из 14 человек "
-"состоялся в 1942 году."
+"техническому обслуживанию и ремонту автомобилей. Первый выпуск из 14 человек"
+" состоялся в 1942 году."
 msgstr ""
+"In 1939 an automotive department was established at the Frunze Industrial "
+"Technical School from a single group, training mechanics in vehicle "
+"maintenance and repair. The first graduation of 14 students was in 1942."
 
 #: apps/core/templates/index.html:50
 msgid "Подробно"
@@ -402,7 +374,7 @@ msgstr "Specialties"
 #: apps/specialty/templates/specialty/detail.html:31
 #: apps/specialty/templates/specialty/list.html:29
 msgid "сом"
-msgstr ""
+msgstr "som"
 
 #: apps/core/templates/index.html:125
 msgid "О библиотеке"
@@ -416,9 +388,13 @@ msgstr "Electronic library system “El-Kitep”"
 msgid ""
 "Это система доступа к копиям электронных учебников, научной и другой "
 "дополнительной литературы, с возможностью цитирования и иными сервисами "
-"работы с текстом. Также ЭБС включает в себя мультимедийные (аудиовизуальные, "
-"программные, интерактивные) продукты и материалы."
+"работы с текстом. Также ЭБС включает в себя мультимедийные (аудиовизуальные,"
+" программные, интерактивные) продукты и материалы."
 msgstr ""
+"This system provides access to copies of electronic textbooks, academic and "
+"other supplementary literature, with citation and other text services. The "
+"e-library also includes multimedia (audio-visual, software, interactive) "
+"products and materials."
 
 #: apps/core/templates/index.html:138
 msgid "Перейти"
@@ -457,43 +433,43 @@ msgstr "Applicants"
 
 #: apps/core/templates/reception.html:15
 msgid "Уважаемые абитуриенты!"
-msgstr ""
+msgstr "Dear applicants!"
 
 #: apps/core/templates/reception.html:18
 msgid "В настоящее время колледж ведет подготовку по специальностям:"
-msgstr ""
+msgstr "The college currently offers training in the following specialties:"
 
 #: apps/core/templates/reception.html:31
 msgid "Как поступить в наш колледж"
-msgstr ""
+msgstr "How to apply to our college"
 
 #: apps/core/templates/reception.html:34
 msgid "Условия приема"
-msgstr ""
+msgstr "Admission conditions"
 
 #: apps/core/templates/reception.html:37
 msgid "Основной список документов для поступающих в колледж:"
-msgstr ""
+msgstr "Main list of documents for applicants to the college:"
 
 #: apps/core/templates/reception.html:39
 msgid "Оригинал Аттестата и Оригинал Свидетельство об образовании;"
-msgstr ""
+msgstr "Original diploma and original education certificate;"
 
 #: apps/core/templates/reception.html:40
 msgid "Свидетельства о рождении или паспорт (копия);"
-msgstr ""
+msgstr "Birth certificate or passport (copy);"
 
 #: apps/core/templates/reception.html:41
 msgid "Фотографии 3х4 (6 штук);"
-msgstr ""
+msgstr "3x4 photos (6 pcs);"
 
 #: apps/core/templates/reception.html:42
 msgid "Скоросшиватель и конверт"
-msgstr ""
+msgstr "Folder and envelope"
 
 #: apps/core/templates/reception.html:48
 msgid "Как считается средний балл аттестата"
-msgstr ""
+msgstr "How the GPA is calculated"
 
 #: apps/core/templates/reception.html:50
 msgid ""
@@ -502,34 +478,39 @@ msgid ""
 "Полученное число и будет средним баллом Вашего аттестата. Средний балл "
 "ведется с точностью до сотых долей."
 msgstr ""
+"You need to count all grades, sum them, and divide by the number of grades. "
+"This number is your diploma GPA, calculated to two decimal places."
 
 #: apps/core/templates/reception.html:53
 msgid "Например:"
-msgstr ""
+msgstr "For example:"
 
 #: apps/core/templates/reception.html:54
 msgid ""
-"В Вашем аттестате стоят оценки по 12 предметам. Из них 5 пятерок, 3 четверки "
-"и 4 тройки. Найдем сумму всех оценок : 5*5 + 4*3 + 3*4 = 25 + 12 + 12= 49. "
+"В Вашем аттестате стоят оценки по 12 предметам. Из них 5 пятерок, 3 четверки"
+" и 4 тройки. Найдем сумму всех оценок : 5*5 + 4*3 + 3*4 = 25 + 12 + 12= 49. "
 "Разделим сумму всех оценок на количество предметов: 49 : 12 = 4.08. Средний "
 "балл рассчитывается с точностью до сотых долей. Таким образом, средний балл "
 "Вашего аттестата – 4.08"
 msgstr ""
+"Your diploma has 12 subjects: five A's, three B's, four C's. Sum: 5*5 + 4*3 "
+"+ 3*4 = 49. Divide by 12: 49 / 12 = 4.08. GPA is calculated to two decimals."
+" So your GPA is 4.08."
 
 #: apps/core/templates/reception.html:61
 #: apps/specialty/templates/specialty/detail.html:32
 msgid "Срок обучение"
-msgstr ""
+msgstr "Duration of study"
 
 #: apps/core/templates/reception.html:63
 #: apps/specialty/templates/specialty/detail.html:33
 msgid "На базе 9 класса"
-msgstr ""
+msgstr "Based on grade 9"
 
 #: apps/core/templates/reception.html:63
 #: apps/specialty/templates/specialty/detail.html:33
 msgid "2 года 10 месяцев"
-msgstr ""
+msgstr "2 years 10 months"
 
 #: apps/core/templates/reception.html:64
 #: apps/specialty/templates/specialty/detail.html:34
@@ -560,241 +541,241 @@ msgstr "Website"
 
 #: apps/employee/models.py:15
 msgid "Короткое название"
-msgstr ""
+msgstr "Short name"
 
 #: apps/employee/models.py:20 apps/employee/models.py:44
 #: apps/student/models.py:15
 msgid "Должность"
-msgstr ""
+msgstr "Position"
 
 #: apps/employee/models.py:21
 msgid "Должности"
-msgstr ""
+msgstr "Positions"
 
 #: apps/employee/models.py:35 apps/employee/models.py:45
 msgid "Национальность"
-msgstr ""
+msgstr "Nationality"
 
 #: apps/employee/models.py:36
 msgid "Национальности"
-msgstr ""
+msgstr "Nationalities"
 
 #: apps/employee/models.py:46
 msgid "Навыки работы"
-msgstr ""
+msgstr "Work skills"
 
 #: apps/employee/models.py:47
 msgid "Фото сотрудника"
-msgstr ""
+msgstr "Employee photo"
 
 #: apps/employee/models.py:52
 msgid "Преподаватель"
-msgstr ""
+msgstr "Teacher"
 
 #: apps/employee/models.py:53
 msgid "Преподаватели"
-msgstr ""
+msgstr "Teachers"
 
 #: apps/employee/templates/employee/employee_detail.html:26
 #: apps/student/templates/student/student_detail.html:26
 msgid "О себе"
-msgstr ""
+msgstr "About me"
 
 #: apps/employee/templates/employee/employee_detail.html:28
 #: apps/student/templates/student/student_detail.html:28
 msgid "День рождения:"
-msgstr ""
+msgstr "Date of birth:"
 
 #: apps/employee/templates/employee/employee_detail.html:67
 msgid "Навыки"
-msgstr ""
+msgstr "Skills"
 
 #: apps/employee/templates/employee/index.html:4 apps/student/models.py:24
 #: apps/student/models.py:25 apps/student/templates/student/index.html:4
 msgid "Студентский совет"
-msgstr ""
+msgstr "Student council"
 
 #: apps/feedback/forms.py:13 apps/feedback/templates/contacts.html:74
 msgid "Напишите ответ"
-msgstr ""
+msgstr "Write a response"
 
 #: apps/feedback/forms.py:21 apps/feedback/models.py:12
 #: apps/feedback/templates/contacts.html:49
 msgid "Ваше имя"
-msgstr ""
+msgstr "Your name"
 
 #: apps/feedback/forms.py:27 apps/feedback/models.py:13
 msgid "Ваша электронная почта"
-msgstr ""
+msgstr "Your email"
 
 #: apps/feedback/forms.py:31 apps/feedback/models.py:14
 #: apps/feedback/templates/contacts.html:57
 msgid "Ваше сообщение"
-msgstr ""
+msgstr "Your message"
 
 #: apps/feedback/models.py:22 apps/feedback/models.py:23
 msgid "Обратная связь"
-msgstr ""
+msgstr "Feedback"
 
 #: apps/feedback/models.py:28
 msgid "Изображение в Формате JPG 60X350"
-msgstr ""
+msgstr "Image in JPG format 60x350"
 
 #: apps/feedback/models.py:31
 msgid "Ответ"
-msgstr ""
+msgstr "Answer"
 
 #: apps/feedback/templates/contacts.html:14
 msgid "Позвоните Нам"
-msgstr ""
+msgstr "Call us"
 
 #: apps/feedback/templates/contacts.html:15
 msgid "Контактные данные"
-msgstr ""
+msgstr "Contact details"
 
 #: apps/feedback/templates/contacts.html:20
 msgid "Наш адрес: "
-msgstr ""
+msgstr "Our address:"
 
 #: apps/feedback/templates/contacts.html:22 templates/base/footer.html:62
 msgid "г. Бишкек, проспект Чынгыза Айтматова 52"
-msgstr ""
+msgstr "Bishkek, Chyngyz Aitmatov Avenue 52"
 
 #: apps/feedback/templates/contacts.html:27
 msgid "Менеджеры БАДК"
-msgstr ""
+msgstr "BADK managers"
 
 #: apps/feedback/templates/contacts.html:33
 msgid "Приемная"
-msgstr ""
+msgstr "Reception"
 
 #: apps/feedback/templates/contacts.html:41
 msgid "Система Обратной Связи"
-msgstr ""
+msgstr "Feedback system"
 
 #: apps/feedback/templates/contacts.html:42
 msgid "Есть идея"
-msgstr ""
+msgstr "Got an idea"
 
 #: apps/feedback/templates/contacts.html:53
 msgid "Ваша почта"
-msgstr ""
+msgstr "Your email"
 
 #: apps/feedback/templates/contacts.html:61
 msgid "Согласен на обработку персональных данных"
-msgstr ""
+msgstr "I agree to personal data processing"
 
 #: apps/feedback/templates/contacts.html:79
 msgid "Отправить сообщение"
-msgstr ""
+msgstr "Send message"
 
 #: apps/feedback/views.py:30
 msgid "Не правильный ответ"
-msgstr ""
+msgstr "Incorrect answer"
 
 #: apps/news/models.py:18
 msgid "Ссылка на видео"
-msgstr ""
+msgstr "Video link"
 
 #: apps/news/models.py:20 apps/specialty/models.py:34
 msgid "Статус"
-msgstr ""
+msgstr "Status"
 
 #: apps/news/models.py:25
 msgid "Создано"
-msgstr ""
+msgstr "Created"
 
 #: apps/news/models.py:49
 msgid "Новость"
-msgstr ""
+msgstr "News item"
 
 #: apps/news/templates/news/aside.html:4
 msgid "Поиск новостей"
-msgstr ""
+msgstr "News search"
 
 #: apps/news/templates/news/aside.html:6
 msgid "Поиск по ключевому слову..."
-msgstr ""
+msgstr "Search by keyword..."
 
 #: apps/news/templates/news/aside.html:7
 msgid "Поиск"
-msgstr ""
+msgstr "Search"
 
 #: apps/news/templates/news/detail.html:23
 #: apps/specialty/templates/specialty/detail.html:19
 msgid "Добавлено"
-msgstr ""
+msgstr "Added"
 
 #: apps/specialty/models.py:18
 msgid "Очный"
-msgstr ""
+msgstr "Full-time"
 
 #: apps/specialty/models.py:19
 msgid "Очный/Заочный"
-msgstr ""
+msgstr "Full-time/Part-time"
 
 #: apps/specialty/models.py:20
 msgid "Заочный"
-msgstr ""
+msgstr "Part-time"
 
 #: apps/specialty/models.py:23
 #: apps/specialty/templates/specialty/detail.html:31
 msgid "Контракт"
-msgstr ""
+msgstr "Contract"
 
 #: apps/specialty/models.py:24
 msgid "Контракт/Бюджет"
-msgstr ""
+msgstr "Contract/Budget"
 
 #: apps/specialty/models.py:26
 msgid "Наименование"
-msgstr ""
+msgstr "Name"
 
 #: apps/specialty/models.py:29
 msgid "Сумма контракта"
-msgstr ""
+msgstr "Contract amount"
 
 #: apps/specialty/models.py:30
 msgid "Форма обучение"
-msgstr ""
+msgstr "Study format"
 
 #: apps/specialty/models.py:31
 #: apps/specialty/templates/specialty/detail.html:30
 msgid "Основа обучения"
-msgstr ""
+msgstr "Basis of study"
 
 #: apps/specialty/models.py:60
 #: apps/specialty/templates/specialty/detail.html:17
 msgid "Специальность"
-msgstr ""
+msgstr "Specialty"
 
 #: apps/specialty/templates/specialty/detail.html:27
 msgid "Полезные информации"
-msgstr ""
+msgstr "Useful information"
 
 #: apps/specialty/templates/specialty/detail.html:29
 msgid "Форма обучения"
-msgstr ""
+msgstr "Form of study"
 
 #: apps/specialty/templates/specialty/detail.html:35
 msgid "Часто задаваемые вопросы"
-msgstr ""
+msgstr "Frequently asked questions"
 
 #: apps/specialty/templates/specialty/detail.html:36
 msgid "Как поступить в колледж?"
-msgstr ""
+msgstr "How to enter the college?"
 
 #: apps/specialty/templates/specialty/detail.html:37
 msgid "Какие документы нужны для поступления?"
-msgstr ""
+msgstr "What documents are needed for admission?"
 
 #: apps/specialty/templates/specialty/list.html:12
 msgid "Что мы вам предлагаем"
-msgstr ""
+msgstr "What we offer you"
 
 #: apps/student/models.py:16
 msgid "Фото студента"
-msgstr ""
+msgstr "Student photo"
 
 #: apps/student/models.py:38 apps/student/models.py:39
 msgid "Студентская жизнь"
@@ -806,19 +787,19 @@ msgstr "Student council"
 
 #: config/settings.py:142
 msgid "Русский"
-msgstr ""
+msgstr "Russian"
 
 #: config/settings.py:143
 msgid "Кыргызча"
-msgstr ""
+msgstr "Kyrgyz"
 
 #: config/settings.py:144
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: templates/base/base.html:10
 msgid "Бишкекский автомобильно-дорожный колледж - имени Кусаина Кольбаева"
-msgstr ""
+msgstr "Bishkek Automobile-Road College named after Kusain Kolbaev"
 
 #: templates/base/footer.html:8
 msgid "Бишкекский автомобильно-дорожный колледж"
