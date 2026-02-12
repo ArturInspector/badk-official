@@ -3,14 +3,44 @@ services:
   badk_official:
     build:
       dockerfile: Dockerfile
-    volumes:
-      - ./:/var/www/project
     ports:
       - "8000:8000"
-    command: sh -c "poetry run python manage.py runserver 0.0.0.0:8000"
+    command: >
+      sh -c "python manage.py migrate --noinput &&
+             gunicorn config.wsgi:application
+             --bind 0.0.0.0:8000
+             --workers 6
+             --timeout 30
+             --access-logfile -
+             --error-logfile -"
     restart: always
+    env_file:
+      - ./.env
     depends_on:
       - postgres
+      - redis
+
+  celery_worker:
+    build:
+      dockerfile: Dockerfile
+    command: celery -A config worker --loglevel=info --concurrency=4
+    restart: always
+    env_file:
+      - ./.env
+    depends_on:
+      - postgres
+      - redis
+
+  celery_beat:
+    build:
+      dockerfile: Dockerfile
+    command: celery -A config beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    restart: always
+    env_file:
+      - ./.env
+    depends_on:
+      - postgres
+      - redis
 
   postgres:
     image: postgres:14.6-alpine
