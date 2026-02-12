@@ -63,3 +63,4 @@ class TestSpecialty:
         assert specialty_contract.basis_learning == cons.CONTRACT
         assert specialty_budget.basis_learning == cons.CONTRACT_BUDGET
 
+

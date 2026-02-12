@@ -7,3 +7,4 @@ from .models import FeedBack
 class FeedBackTranslation(TranslationOptions):
     fields = ('name', 'message',)
 
+

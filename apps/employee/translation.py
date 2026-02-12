@@ -17,3 +17,4 @@ class NationalityTranslation(TranslationOptions):
 class EmployeeTranslation(TranslationOptions):
     fields = ('description', 'work_skills',)
 
+

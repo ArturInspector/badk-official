@@ -99,3 +99,4 @@ class TestGetGenerateLinkWhatsapp:
         assert "whatsapp.com" in result
         assert phone in result
 
+

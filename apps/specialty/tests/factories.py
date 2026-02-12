@@ -22,3 +22,4 @@ class SpecialtyFactory(factory.django.DjangoModelFactory):
         )
     )
 
+

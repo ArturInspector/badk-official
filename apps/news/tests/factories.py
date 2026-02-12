@@ -35,3 +35,4 @@ class NewsImagesFactory(factory.django.DjangoModelFactory):
         )
     )
 
+
