@@ -13,15 +13,21 @@
             <div class="history-text animate__animated animate__fadeInUp">
                 <p>{{ site_content.history_paragraph_1|safe }}</p>
                 <p>{{ site_content.history_paragraph_2|safe }}</p>
-                <img src="{% static 'dist/images/college/HY2343.webp' %}" style="max-width: 500px; width: 100%" class="mr-4 mt-3" alt="" align="left" height="auto">
-                <p>{{ site_content.history_paragraph_3|safe }}</p>
-                <img src="{% static 'dist/images/college/HY3423.webp' %}" style="max-width: 300px; width: 100%" class="mr-4 mt-3" alt="" align="left" height="auto">
-                <p>{{ site_content.history_paragraph_4|safe }}</p>
-                <p>{{ site_content.history_paragraph_5|safe }}</p>
-                <img src="{% static 'dist/images/college/HY3422.webp' %}" style="max-width: 300px; width: 100%" class="mr-4 mt-3" alt="" align="left" height="auto">
-                <p>{{ site_content.history_paragraph_6|safe }}</p>
-                <p>{{ site_content.history_paragraph_7|safe }}</p>
-                <p>{{ site_content.history_paragraph_8|safe }}</p>
+                <div style="overflow:hidden">
+                    <img src="{% static 'dist/images/college/HY2343.webp' %}" style="max-width: 500px; width: 100%; float:left" class="mr-4 mt-3" alt="">
+                    <p>{{ site_content.history_paragraph_3|safe }}</p>
+                </div>
+                <div style="overflow:hidden">
+                    <img src="{% static 'dist/images/college/HY3423.webp' %}" style="max-width: 300px; width: 100%; float:left" class="mr-4 mt-3" alt="">
+                    <p>{{ site_content.history_paragraph_4|safe }}</p>
+                    <p>{{ site_content.history_paragraph_5|safe }}</p>
+                </div>
+                <div style="overflow:hidden">
+                    <img src="{% static 'dist/images/college/HY3422.webp' %}" style="max-width: 300px; width: 100%; float:left" class="mr-4 mt-3" alt="">
+                    <p>{{ site_content.history_paragraph_6|safe }}</p>
+                    <p>{{ site_content.history_paragraph_7|safe }}</p>
+                    <p>{{ site_content.history_paragraph_8|safe }}</p>
+                </div>
             </div>
         </div>
     </section>
