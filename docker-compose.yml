@@ -10,7 +10,7 @@ services:
     env_file:
       - ./.env
     volumes:
-      - media_data:/var/www/project/media
+      - /var/www/badk-media:/var/www/project/media
     depends_on:
       - postgres
       - redis
@@ -61,5 +61,3 @@ services:
     restart: always
     hostname: redis
 
-volumes:
-  media_data:
