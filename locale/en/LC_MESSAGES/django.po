@@ -180,15 +180,14 @@ msgid "О колледже"
 msgstr "About the college"
 
 #: apps/core/templates/history.html:15 apps/core/templates/index.html:45
-#, python-format
 msgid ""
-"Кыргызская Республика расположена в горной местности. Более 95%% перевозок "
+"Кыргызская Республика расположена в горной местности. Более 95% перевозок "
 "грузов и пассажиров осуществляется автомобильным транспортом и часть "
 "железнодорожным. Поэтому республика нуждалась в подготовке специалистов "
 "среднего звена, владеющих навыками обслуживания, эксплуатации автотранспорта"
 " и строительства автомобильных и железных дорог."
 msgstr ""
-"The Kyrgyz Republic is mountainous. Over 95%% of freight and passenger "
+"The Kyrgyz Republic is mountainous. Over 95% of freight and passenger "
 "transport is by road and partly by rail. Therefore the republic needed mid-"
 "level specialists skilled in maintaining and operating vehicles and in "
 "building roads and railways."
