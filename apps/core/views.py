@@ -1,3 +1,5 @@
+import os
+
 from django.db.models import Prefetch
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView, FormView, ListView, DetailView
@@ -17,7 +19,7 @@ class IndexView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["specialties"] = Specialty.active.all()
-        context["news"] = News.active.all()[:9]
+        context["news"] = [n for n in News.active.all()[:9] if n.image and os.path.exists(n.image.path)]
         context["lives"] = StudentLive.active.all()[:9]
         context["employees"] = Employee.active.select_related('position')[:9]
         context["students"] = StudentCouncil.active.all()[:9]
