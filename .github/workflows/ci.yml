@@ -45,9 +45,12 @@ jobs:
       
       - name: Run Ruff
         run: poetry run ruff check .
-      
+
       - name: Check formatting with Black
         run: poetry run black --check .
+
+      - name: Check .po files for false python-format flags
+        run: python scripts/fix_po_percent.py --check
 
   type-check:
     name: Type Check
