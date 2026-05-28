@@ -5,17 +5,12 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    command: >
-      sh -c "python manage.py migrate --noinput &&
-             gunicorn config.wsgi:application
-             --bind 0.0.0.0:8000
-             --workers 6
-             --timeout 30
-             --access-logfile -
-             --error-logfile -"
+    command: sh -c "python manage.py migrate --noinput && gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 6 --timeout 30 --access-logfile - --error-logfile -"
     restart: always
     env_file:
       - ./.env
+    volumes:
+      - media_data:/var/www/project/media
     depends_on:
       - postgres
       - redis
@@ -65,3 +60,6 @@ services:
     container_name: badk-redis
     restart: always
     hostname: redis
+
+volumes:
+  media_data:
