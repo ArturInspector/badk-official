@@ -8,6 +8,7 @@ from .models import (
     InternationalCooperationImages,
     Document,
     DocumentFile, EduProcessFile, EduProcess,
+    SiteContent,
 )
 
 
@@ -62,3 +63,9 @@ class EduProcessFileInlines(admin.TabularInline):
 class EduProcessAdmin(TabbedTranslationAdmin):
     list_display = ('title',)
     inlines = [EduProcessFileInlines]
+
+
+@admin.register(SiteContent)
+class SiteContentAdmin(TabbedTranslationAdmin):
+    list_display = ('key',)
+    search_fields = ('key',)

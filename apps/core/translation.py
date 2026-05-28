@@ -7,6 +7,7 @@ from .models import (
     EduProcess,
     EduProcessFile,
     InternationalCooperation,
+    SiteContent,
 )
 
 
@@ -38,3 +39,8 @@ class EduProcessTranslation(TranslationOptions):
 @register(EduProcessFile)
 class EduProcessFileTranslation(TranslationOptions):
     fields = ('title',)
+
+
+@register(SiteContent)
+class SiteContentTranslation(TranslationOptions):
+    fields = ('value',)

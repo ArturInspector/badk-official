@@ -179,3 +179,15 @@ class AbstractResume(models.Model):
 
     def __str__(self):
         return f'{self.last_name} {self.first_name} {self.sur_name if self.sur_name else ""}'
+
+
+class SiteContent(models.Model):
+    key = models.SlugField(unique=True, help_text="Unique identifier used in templates")
+    value = RichTextField(blank=True)
+
+    def __str__(self):
+        return self.key
+
+    class Meta:
+        verbose_name = 'Site Content'
+        verbose_name_plural = 'Site Content'
