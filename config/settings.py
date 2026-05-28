@@ -157,6 +157,7 @@ MODELTRANSLATION_FALLBACK_LANGUAGES = {
 }
 ROSETTA_ACCESS_CONTROL_FUNCTION = 'config.rosetta_access.can_manage_translations'
 ROSETTA_SAVE_COMPILED_MESSAGES = True
+ROSETTA_WSGI_AUTO_RELOAD = True
 
 if DEBUG:
     INSTALLED_APPS.append('debug_toolbar')
